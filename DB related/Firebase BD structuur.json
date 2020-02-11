@@ -1,0 +1,32 @@
+{
+	"users": {
+		"<id>": {
+			"email": <name>
+		}
+	},	
+	"Categories": {
+		"<id>": {
+			"name": <name>,
+			"user": <userid>,
+			"parent": <parentcategoryid>}		
+	},
+	"task": {
+		"<id>": {
+			"name": <name>,
+			"startdate": <startdate>,
+			"enddate": <enddate>,
+			"method": <method>,
+			"Status": <status>,
+			"Description": <description>,
+			"Category": <categoryid>
+		}
+	},
+	"assessments": {
+		"<id>": {
+			"date": <date>,
+			"score": <score>,
+			"status": <status>,
+			"parent": <taskid>
+		}
+	}
+}
