@@ -22,3 +22,4 @@
 		* Van mapping function overgestapt naar gewoone forloop die per origineel object een aangepast object maakt.
 		* Geslaagde test bij users column.
 	* De converter is erg basic, geen output/input files. Input data is hardcoded, en de output wordt op een lege HTML pagina getoond.
+	* Converted output is nagekeken geweest met een JSON formatter (zie bronnen), deze geeft aan dat de conversie valide is.

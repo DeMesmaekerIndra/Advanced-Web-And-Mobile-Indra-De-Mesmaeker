@@ -2805,56 +2805,63 @@ function ChangeUsers() {
 
     data.users = newObj;
     document.getElementById('userdata').innerText = JSON.stringify(data.users);
-
 }
 
 function ChangeCategories() {
-    data.categories.map(function (item) {
-        return {
-            [item.Id]: {
-                "Name": item.Name,
-                "Status": item.Status,
-                "UserId": item.UserId
-            }
+    let newObj = {};
+    for (let i = 0; i < data.categories.length; i++) {
+        const category = data.categories[i];
+
+        newObj[category.Id] = {
+            "Name": category.Name,
+            "Status": category.Status,
+            "UserId": category.UserId
         };
-    });
+    }
+
+    data.categories = newObj;
+    document.getElementById('categorydata').innerText = JSON.stringify(data.categories);
 }
 
 function ChangeTasks() {
-    data.tasks.map(function (item) {
-        return {
-            [item.Id]: {
-                "Name": item.Name,
-                "Description": item.Description,
-                "Status": item.Status,
-                "Method": item.Method,
-                "StartDate": item.StartDate,
-                "EndDate": item.EndDate,
-                "CategoryId": item.CategoryId
-            }
+    let newObj = {};
+    for (let i = 0; i < data.tasks.length; i++) {
+        const task = data.tasks[i];
+
+        newObj[task.Id] = {
+            "Name": task.Name,
+            "Description": task.Description,
+            "Status": task.Status,
+            "Method": task.Method,
+            "StartDate": task.StartDate,
+            "EndDate": task.EndDate,
+            "CategoryId": task.CategoryId
         };
-    });
+    }
+
+    data.categories = newObj;
+    document.getElementById('taskdata').innerText = JSON.stringify(data.categories);
 }
 
 function ChangeAssessments() {
-    data.assessments.map(function (item) {
-        return {
-            [item.Id]: {
-                "Date": item.Date,
-                "Score": item.Score,
-                "Status": item.Status
-            }
+    let newObj = {};
+    for (let i = 0; i < data.assessments.length; i++) {
+        const assessment = data.assessments[i];
+
+        newObj[assessment.Id] = {
+            "Date": assessment.Date,
+            "Score": assessment.Score,
+            "Status": assessment.Status
         };
-    });
+    }
+
+    data.assessments = newObj;
+    document.getElementById('assessmentdata').innerText = JSON.stringify(data.assessments);
 }
 
 window.addEventListener('load', function () {
-
     ChangeUsers();
     ChangeCategories();
     ChangeTasks();
     ChangeAssessments();
-
-
-    console.log(data);
 });
