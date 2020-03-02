@@ -2793,16 +2793,19 @@ let data = {
     ]
 };
 
-//TODO Change ID's, actually execute
-
 function ChangeUsers() {
-    data.users.map(function (item) {
-        return {
-            [UserId.Id]: {
-                "Username": item.Username
-            }
+    let newObj = {};
+    for (let i = 0; i < data.users.length; i++) {
+        const user = data.users[i];
+
+        newObj[user.Id] = {
+            "Username": user.Username
         };
-    });
+    }
+
+    data.users = newObj;
+    document.getElementById('userdata').innerText = JSON.stringify(data.users);
+
 }
 
 function ChangeCategories() {
@@ -2833,8 +2836,8 @@ function ChangeTasks() {
     });
 }
 
-function ChangeAssessments(oldAssessments) {
-    oldAssessments.map(function (item) {
+function ChangeAssessments() {
+    data.assessments.map(function (item) {
         return {
             [item.Id]: {
                 "Date": item.Date,
@@ -2846,8 +2849,12 @@ function ChangeAssessments(oldAssessments) {
 }
 
 window.addEventListener('load', function () {
+
     ChangeUsers();
     ChangeCategories();
     ChangeTasks();
     ChangeAssessments();
+
+
+    console.log(data);
 });

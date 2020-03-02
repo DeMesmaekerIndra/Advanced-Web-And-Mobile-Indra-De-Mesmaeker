@@ -9,3 +9,6 @@
 
 * Stack Overflow:
 	* https://stackoverflow.com/questions/30910704/how-do-i-link-each-user-to-their-data-in-firebase
+	
+* Tools:
+	* JSON formatter: https://jsonformatter.curiousconcept.com/

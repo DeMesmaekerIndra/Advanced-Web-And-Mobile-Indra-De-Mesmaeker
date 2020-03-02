@@ -1,8 +1,24 @@
 # Logboek
-## Totaal aantal uren: 4u
+## Totaal aantal uren: 10u
 
 ## Week 1:
 * 4u les.
-    * Codelab van chat met firebase
-	* Leren navigeren in firebase tool
-	* Nagedacht over het omzetten van huide MySQL db naar een firebase No-Sql db
+    * Codelab van chat met firebase.
+	* Leren navigeren in firebase tool.
+	* Nagedacht over het omzetten van huide MySQL db naar een firebase No-Sql db.
+
+## Week 2:
+* 4u les.
+	* 2 firebase projecten geopened
+		* 1 development project waar ik alleen kan in testen.
+		* 1 production project waar zowel Mathias en ik toegang tot hebben.
+	* Verder uitwerken JSON structuur voor omzetting van MySQL naar firebase.
+	* Opzoekingen gedaan naar mogelijke bestaande converters (Geen bruikbare resulaten).
+	* Uiteindelijk zelf gestart met een converter te maken in JS.
+	
+## Krokusvakantie:
+* 3/2/2020 : 2u
+	* Verder gewerkt aan JS converter.
+		* Van mapping function overgestapt naar gewoone forloop die per origineel object een aangepast object maakt.
+		* Geslaagde test bij users column.
+	* De converter is erg basic, geen output/input files. Input data is hardcoded, en de output wordt op een lege HTML pagina getoond.
