@@ -1,6 +1,5 @@
 {
     "users": {
-
         "1": {
             "Username": "Indra"
         },
@@ -63,123 +62,121 @@
         }
     },
     "Categories": {
-        "<id>": {
-            "8": {
-                "Name": "Hey I was updated",
-                "UserId": "2"
-            },
-            "9": {
-                "Name": "School",
-                "UserId": "1"
-            },
-            "14": {
-                "Name": "Web & Mobile",
-                "UserId": "1"
-            },
-            "16": {
-                "Name": "Home",
-                "UserId": "1"
-            },
-            "17": {
-                "Name": "Work",
-                "UserId": "2"
-            },
-            "26": {
-                "Name": "testcat4",
-                "UserId": "32"
-            },
-            "27": {
-                "Name": "testcat5",
-                "UserId": "32"
-            },
-            "33": {
-                "Name": "Vacation",
-                "UserId": "1"
-            },
-            "34": {
-                "Name": "Newport",
-                "UserId": "1"
-            },
-            "35": {
-                "Name": "Spain",
-                "UserId": "1"
-            },
-            "36": {
-                "Name": "France",
-                "UserId": "1"
-            },
-            "37": {
-                "Name": "Germany",
-                "UserId": "1"
-            },
-            "38": {
-                "Name": "Switzeland",
-                "UserId": "1"
-            },
-            "40": {
-                "Name": "Work",
-                "UserId": "1"
-            },
-            "41": {
-                "Name": "Accounting",
-                "UserId": "1"
-            },
-            "42": {
-                "Name": "Home",
-                "UserId": "33"
-            },
-            "43": {
-                "Name": "School",
-                "UserId": "33"
-            },
-            "44": {
-                "Name": "mom",
-                "UserId": "33"
-            },
-            "45": {
-                "Name": "dad",
-                "UserId": "33"
-            },
-            "46": {
-                "Name": "new category",
-                "UserId": "34"
-            },
-            "47": {
-                "Name": "newcat",
-                "UserId": "34"
-            },
-            "48": {
-                "Name": "new subcat",
-                "UserId": "34"
-            },
-            "49": {
-                "Name": "testcat",
-                "UserId": "40"
-            },
-            "50": {
-                "Name": "testcat2",
-                "UserId": "40"
-            },
-            "51": {
-                "Name": "subcat1",
-                "UserId": "40"
-            },
-            "52": {
-                "Name": "subcat2",
-                "UserId": "40"
-            },
-            "53": {
-                "Name": "ja",
-                "UserId": "40"
-            },
-            "54": {
-                "Name": "cat3",
-                "UserId": "32"
-            },
-            "55": {
-                "Name": "category",
-                "UserId": "1"
-            }
+        "8": {
+            "Name": "Hey I was updated",
+            "UserId": "2"
+        },
+        "9": {
+            "Name": "School",
+            "UserId": "1"
+        },
+        "14": {
+            "Name": "Web & Mobile",
+            "UserId": "1"
+        },
+        "16": {
+            "Name": "Home",
+            "UserId": "1"
+        },
+        "17": {
+            "Name": "Work",
+            "UserId": "2"
+        },
+        "26": {
+            "Name": "testcat4",
+            "UserId": "32"
+        },
+        "27": {
+            "Name": "testcat5",
+            "UserId": "32"
+        },
+        "33": {
+            "Name": "Vacation",
+            "UserId": "1"
+        },
+        "34": {
+            "Name": "Newport",
+            "UserId": "1"
+        },
+        "35": {
+            "Name": "Spain",
+            "UserId": "1"
+        },
+        "36": {
+            "Name": "France",
+            "UserId": "1"
+        },
+        "37": {
+            "Name": "Germany",
+            "UserId": "1"
+        },
+        "38": {
+            "Name": "Switzeland",
+            "UserId": "1"
+        },
+        "40": {
+            "Name": "Work",
+            "UserId": "1"
+        },
+        "41": {
+            "Name": "Accounting",
+            "UserId": "1"
+        },
+        "42": {
+            "Name": "Home",
+            "UserId": "33"
+        },
+        "43": {
+            "Name": "School",
+            "UserId": "33"
+        },
+        "44": {
+            "Name": "mom",
+            "UserId": "33"
+        },
+        "45": {
+            "Name": "dad",
+            "UserId": "33"
+        },
+        "46": {
+            "Name": "new category",
+            "UserId": "34"
+        },
+        "47": {
+            "Name": "newcat",
+            "UserId": "34"
+        },
+        "48": {
+            "Name": "new subcat",
+            "UserId": "34"
+        },
+        "49": {
+            "Name": "testcat",
+            "UserId": "40"
+        },
+        "50": {
+            "Name": "testcat2",
+            "UserId": "40"
+        },
+        "51": {
+            "Name": "subcat1",
+            "UserId": "40"
+        },
+        "52": {
+            "Name": "subcat2",
+            "UserId": "40"
+        },
+        "53": {
+            "Name": "ja",
+            "UserId": "40"
+        },
+        "54": {
+            "Name": "cat3",
+            "UserId": "32"
+        },
+        "55": {
+            "Name": "category",
+            "UserId": "1"
         }
     },
     "task": {

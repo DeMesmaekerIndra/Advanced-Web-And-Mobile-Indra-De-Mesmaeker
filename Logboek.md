@@ -23,3 +23,5 @@
 		* Geslaagde test bij users column.
 	* De converter is erg basic, geen output/input files. Input data is hardcoded, en de output wordt op een lege HTML pagina getoond.
 	* Converted output is nagekeken geweest met een JSON formatter (zie bronnen), deze geeft aan dat de conversie valide is.
+	* Deployment naar firebase development project om uit te testen
+		* First impressions zijn goed, structuur is geaccepteerd en niet veranderd.
