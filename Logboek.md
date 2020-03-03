@@ -1,5 +1,5 @@
 # Logboek
-## Totaal aantal uren: 10u
+## Totaal aantal uren : 14u
 
 ## Week 1:
 * 4u les.
@@ -28,3 +28,12 @@
 		* Uitzoeken hoe we huidige data best integreren met get systeem
 			* Oude users moeten bruikbaar blijven, maar de nieuwe authenticatie moet geimplementeerd worden.
 			* mogelijke problemen met het auto-ID systeem van firebase
+
+## Week 3:
+* 4u les.
+	* Firebase Codelab voor Android
+		* Gradle problemen oplossen...
+		* Voltooien van codelab
+	* Missende key/value pairs in database
+		* Nieuwere bronddata gebruikt
+		* converter aangepast

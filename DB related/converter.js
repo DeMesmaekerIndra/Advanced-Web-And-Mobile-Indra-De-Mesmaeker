@@ -1,2394 +1,2394 @@
 let data = {
     "assessments": [{
-            "Date": "2019-12-20",
             "Id": "98",
+            "Date": "2019-12-20",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2019-12-20",
             "Id": "99",
+            "Date": "2019-12-20",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2019-12-20",
             "Id": "100",
+            "Date": "2019-12-20",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2019-12-20",
             "Id": "101",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2019-12-20",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "102",
+            "Date": "2019-12-20",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2019-12-21",
             "Id": "103",
+            "Date": "2019-12-21",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2019-12-21",
             "Id": "104",
+            "Date": "2019-12-21",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2019-12-21",
             "Id": "105",
+            "Date": "2019-12-21",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2019-12-21",
             "Id": "106",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2019-12-21",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "107",
+            "Date": "2019-12-21",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2019-12-22",
             "Id": "237",
+            "Date": "2019-12-22",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2019-12-22",
             "Id": "238",
+            "Date": "2019-12-22",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2019-12-22",
             "Id": "239",
+            "Date": "2019-12-22",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2019-12-22",
             "Id": "240",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2019-12-22",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "241",
+            "Date": "2019-12-22",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2019-12-23",
             "Id": "363",
+            "Date": "2019-12-23",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2019-12-23",
             "Id": "364",
+            "Date": "2019-12-23",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2019-12-23",
             "Id": "365",
+            "Date": "2019-12-23",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2019-12-23",
             "Id": "366",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2019-12-23",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "367",
+            "Date": "2019-12-23",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2019-12-24",
             "Id": "370",
+            "Date": "2019-12-24",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2019-12-24",
             "Id": "371",
+            "Date": "2019-12-24",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2019-12-24",
             "Id": "372",
+            "Date": "2019-12-24",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2019-12-24",
             "Id": "373",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2019-12-24",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "374",
+            "Date": "2019-12-24",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2019-12-25",
             "Id": "377",
+            "Date": "2019-12-25",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2019-12-25",
             "Id": "378",
+            "Date": "2019-12-25",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2019-12-25",
             "Id": "379",
+            "Date": "2019-12-25",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2019-12-25",
             "Id": "380",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2019-12-25",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "381",
+            "Date": "2019-12-25",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2019-12-26",
             "Id": "382",
+            "Date": "2019-12-26",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2019-12-26",
             "Id": "383",
+            "Date": "2019-12-26",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2019-12-26",
             "Id": "384",
+            "Date": "2019-12-26",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2019-12-26",
             "Id": "385",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2019-12-26",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "386",
+            "Date": "2019-12-26",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2019-12-27",
             "Id": "389",
+            "Date": "2019-12-27",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2019-12-27",
             "Id": "390",
+            "Date": "2019-12-27",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2019-12-27",
             "Id": "391",
+            "Date": "2019-12-27",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2019-12-27",
             "Id": "392",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2019-12-27",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "393",
+            "Date": "2019-12-27",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2019-12-28",
             "Id": "396",
+            "Date": "2019-12-28",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2019-12-28",
             "Id": "397",
+            "Date": "2019-12-28",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2019-12-28",
             "Id": "398",
+            "Date": "2019-12-28",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2019-12-28",
             "Id": "399",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2019-12-28",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "400",
+            "Date": "2019-12-28",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2019-12-29",
             "Id": "403",
+            "Date": "2019-12-29",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2019-12-29",
             "Id": "404",
+            "Date": "2019-12-29",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2019-12-29",
             "Id": "405",
+            "Date": "2019-12-29",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2019-12-29",
             "Id": "406",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2019-12-29",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "407",
+            "Date": "2019-12-29",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2019-12-30",
             "Id": "410",
+            "Date": "2019-12-30",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2019-12-30",
             "Id": "411",
+            "Date": "2019-12-30",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2019-12-30",
             "Id": "412",
+            "Date": "2019-12-30",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2019-12-30",
             "Id": "413",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2019-12-30",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "414",
+            "Date": "2019-12-30",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2019-12-31",
             "Id": "417",
+            "Date": "2019-12-31",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2019-12-31",
             "Id": "418",
+            "Date": "2019-12-31",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2019-12-31",
             "Id": "419",
+            "Date": "2019-12-31",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2019-12-31",
             "Id": "420",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2019-12-31",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "421",
+            "Date": "2019-12-31",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-01",
             "Id": "424",
+            "Date": "2020-01-01",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-01",
             "Id": "425",
+            "Date": "2020-01-01",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-01",
             "Id": "426",
+            "Date": "2020-01-01",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-01",
             "Id": "427",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-01",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "428",
+            "Date": "2020-01-01",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-02",
             "Id": "438",
+            "Date": "2020-01-02",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-02",
             "Id": "439",
+            "Date": "2020-01-02",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-02",
             "Id": "440",
+            "Date": "2020-01-02",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-02",
             "Id": "441",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-02",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "442",
+            "Date": "2020-01-02",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-03",
             "Id": "445",
+            "Date": "2020-01-03",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-03",
             "Id": "446",
+            "Date": "2020-01-03",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-03",
             "Id": "447",
+            "Date": "2020-01-03",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-03",
             "Id": "448",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-03",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "449",
+            "Date": "2020-01-03",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-04",
             "Id": "460",
+            "Date": "2020-01-04",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-04",
             "Id": "461",
+            "Date": "2020-01-04",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-04",
             "Id": "462",
+            "Date": "2020-01-04",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-04",
             "Id": "463",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-04",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "464",
+            "Date": "2020-01-04",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-05",
             "Id": "474",
+            "Date": "2020-01-05",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-05",
             "Id": "475",
+            "Date": "2020-01-05",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-05",
             "Id": "476",
+            "Date": "2020-01-05",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-05",
             "Id": "477",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-05",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "478",
+            "Date": "2020-01-05",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-06",
             "Id": "481",
+            "Date": "2020-01-06",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-06",
             "Id": "482",
+            "Date": "2020-01-06",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-06",
             "Id": "483",
+            "Date": "2020-01-06",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-06",
             "Id": "484",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-06",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "485",
+            "Date": "2020-01-06",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-07",
             "Id": "488",
+            "Date": "2020-01-07",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-07",
             "Id": "489",
+            "Date": "2020-01-07",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-07",
             "Id": "490",
+            "Date": "2020-01-07",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-07",
             "Id": "491",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-07",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "492",
+            "Date": "2020-01-07",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-08",
             "Id": "495",
+            "Date": "2020-01-08",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-08",
             "Id": "496",
+            "Date": "2020-01-08",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-08",
             "Id": "497",
+            "Date": "2020-01-08",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-08",
             "Id": "498",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-08",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "499",
+            "Date": "2020-01-08",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-09",
             "Id": "502",
+            "Date": "2020-01-09",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-09",
             "Id": "503",
+            "Date": "2020-01-09",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-09",
             "Id": "504",
+            "Date": "2020-01-09",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-09",
             "Id": "505",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-09",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "506",
+            "Date": "2020-01-09",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-10",
             "Id": "509",
+            "Date": "2020-01-10",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-10",
             "Id": "510",
+            "Date": "2020-01-10",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-10",
             "Id": "511",
+            "Date": "2020-01-10",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-10",
             "Id": "512",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-10",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "513",
+            "Date": "2020-01-10",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-11",
             "Id": "516",
+            "Date": "2020-01-11",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-11",
             "Id": "517",
+            "Date": "2020-01-11",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-11",
             "Id": "518",
+            "Date": "2020-01-11",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-11",
             "Id": "519",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-11",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "520",
+            "Date": "2020-01-11",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-12",
             "Id": "523",
+            "Date": "2020-01-12",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-12",
             "Id": "524",
+            "Date": "2020-01-12",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-12",
             "Id": "525",
+            "Date": "2020-01-12",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-12",
             "Id": "526",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-12",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "527",
+            "Date": "2020-01-12",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-13",
             "Id": "530",
+            "Date": "2020-01-13",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-13",
             "Id": "531",
+            "Date": "2020-01-13",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-13",
             "Id": "532",
+            "Date": "2020-01-13",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-13",
             "Id": "533",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-13",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "534",
+            "Date": "2020-01-13",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-14",
             "Id": "537",
+            "Date": "2020-01-14",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-14",
             "Id": "538",
+            "Date": "2020-01-14",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-14",
             "Id": "539",
+            "Date": "2020-01-14",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-14",
             "Id": "540",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-14",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "541",
+            "Date": "2020-01-14",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-15",
             "Id": "544",
+            "Date": "2020-01-15",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-15",
             "Id": "545",
+            "Date": "2020-01-15",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-15",
             "Id": "546",
+            "Date": "2020-01-15",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-15",
             "Id": "547",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-15",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "548",
+            "Date": "2020-01-15",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-16",
             "Id": "551",
+            "Date": "2020-01-16",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-16",
             "Id": "552",
+            "Date": "2020-01-16",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-16",
             "Id": "553",
+            "Date": "2020-01-16",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-16",
             "Id": "554",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-16",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "555",
+            "Date": "2020-01-16",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-17",
             "Id": "558",
+            "Date": "2020-01-17",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-17",
             "Id": "559",
+            "Date": "2020-01-17",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-17",
             "Id": "560",
+            "Date": "2020-01-17",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-17",
             "Id": "561",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-17",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "562",
+            "Date": "2020-01-17",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-18",
             "Id": "565",
+            "Date": "2020-01-18",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-18",
             "Id": "566",
+            "Date": "2020-01-18",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-18",
             "Id": "567",
+            "Date": "2020-01-18",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-18",
             "Id": "568",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-18",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "569",
+            "Date": "2020-01-18",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-19",
             "Id": "572",
+            "Date": "2020-01-19",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-19",
             "Id": "573",
+            "Date": "2020-01-19",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-19",
             "Id": "574",
+            "Date": "2020-01-19",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-19",
             "Id": "575",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-19",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "576",
+            "Date": "2020-01-19",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-20",
             "Id": "579",
+            "Date": "2020-01-20",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-20",
             "Id": "580",
+            "Date": "2020-01-20",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-20",
             "Id": "581",
+            "Date": "2020-01-20",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-20",
             "Id": "582",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-20",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "583",
+            "Date": "2020-01-20",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-21",
             "Id": "586",
+            "Date": "2020-01-21",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-21",
             "Id": "587",
+            "Date": "2020-01-21",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-21",
             "Id": "588",
+            "Date": "2020-01-21",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-21",
             "Id": "589",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "21"
-        },
-        {
             "Date": "2020-01-21",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "21"
+        },
+        {
             "Id": "590",
+            "Date": "2020-01-21",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-22",
             "Id": "593",
+            "Date": "2020-01-22",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-22",
             "Id": "594",
+            "Date": "2020-01-22",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-22",
             "Id": "595",
+            "Date": "2020-01-22",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-22",
             "Id": "596",
+            "Date": "2020-01-22",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-01-22",
             "Id": "597",
+            "Date": "2020-01-22",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-23",
             "Id": "600",
+            "Date": "2020-01-23",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-23",
             "Id": "601",
+            "Date": "2020-01-23",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-23",
             "Id": "602",
+            "Date": "2020-01-23",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-23",
             "Id": "603",
+            "Date": "2020-01-23",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-01-23",
             "Id": "604",
+            "Date": "2020-01-23",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-24",
             "Id": "605",
+            "Date": "2020-01-24",
             "Score": "8",
             "Status": "Done",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-24",
             "Id": "606",
+            "Date": "2020-01-24",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-24",
             "Id": "607",
+            "Date": "2020-01-24",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-24",
             "Id": "608",
+            "Date": "2020-01-24",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-01-24",
             "Id": "609",
+            "Date": "2020-01-24",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-25",
             "Id": "612",
+            "Date": "2020-01-25",
             "Score": "7",
             "Status": "Done",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-25",
             "Id": "613",
+            "Date": "2020-01-25",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-25",
             "Id": "614",
+            "Date": "2020-01-25",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-25",
             "Id": "615",
+            "Date": "2020-01-25",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-01-25",
             "Id": "616",
+            "Date": "2020-01-25",
             "Score": "3",
             "Status": "Done",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-26",
             "Id": "619",
+            "Date": "2020-01-26",
             "Score": "6",
             "Status": "Done",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-26",
             "Id": "620",
+            "Date": "2020-01-26",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-26",
             "Id": "621",
+            "Date": "2020-01-26",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-26",
             "Id": "622",
+            "Date": "2020-01-26",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-01-26",
             "Id": "623",
+            "Date": "2020-01-26",
             "Score": "6",
             "Status": "Done",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-27",
             "Id": "634",
+            "Date": "2020-01-27",
             "Score": "6",
             "Status": "Done",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-27",
             "Id": "635",
+            "Date": "2020-01-27",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-27",
             "Id": "636",
+            "Date": "2020-01-27",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "18"
         },
         {
-            "Date": "2020-01-27",
             "Id": "637",
+            "Date": "2020-01-27",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-01-27",
             "Id": "638",
+            "Date": "2020-01-27",
             "Score": "7",
             "Status": "Done",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-28",
             "Id": "639",
+            "Date": "2020-01-28",
             "Score": "1",
             "Status": "Done",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-28",
             "Id": "640",
+            "Date": "2020-01-28",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-28",
             "Id": "641",
+            "Date": "2020-01-28",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-01-28",
             "Id": "642",
+            "Date": "2020-01-28",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-28",
             "Id": "643",
+            "Date": "2020-01-28",
             "Score": "5",
             "Status": "Done",
             "TaskId": "29"
         },
         {
-            "Date": "2020-01-28",
             "Id": "644",
+            "Date": "2020-01-28",
             "Score": "5",
             "Status": "Done",
             "TaskId": "30"
         },
         {
-            "Date": "2020-01-28",
             "Id": "645",
+            "Date": "2020-01-28",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "31"
         },
         {
-            "Date": "2020-01-28",
             "Id": "646",
+            "Date": "2020-01-28",
             "Score": "5",
             "Status": "Done",
             "TaskId": "33"
         },
         {
-            "Date": "2020-01-28",
             "Id": "647",
+            "Date": "2020-01-28",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "36"
         },
         {
-            "Date": "2020-01-28",
             "Id": "648",
+            "Date": "2020-01-28",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "37"
         },
         {
-            "Date": "2020-01-29",
             "Id": "654",
+            "Date": "2020-01-29",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-29",
             "Id": "655",
+            "Date": "2020-01-29",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-29",
             "Id": "656",
+            "Date": "2020-01-29",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-01-29",
             "Id": "657",
+            "Date": "2020-01-29",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-29",
             "Id": "658",
+            "Date": "2020-01-29",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "29"
         },
         {
-            "Date": "2020-01-29",
             "Id": "659",
+            "Date": "2020-01-29",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-01-29",
             "Id": "660",
+            "Date": "2020-01-29",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "31"
         },
         {
-            "Date": "2020-01-29",
             "Id": "661",
+            "Date": "2020-01-29",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "33"
         },
         {
-            "Date": "2020-01-29",
             "Id": "662",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "34"
-        },
-        {
             "Date": "2020-01-29",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "34"
+        },
+        {
             "Id": "663",
+            "Date": "2020-01-29",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "37"
         },
         {
-            "Date": "2020-01-30",
             "Id": "669",
+            "Date": "2020-01-30",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-30",
             "Id": "670",
+            "Date": "2020-01-30",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-30",
             "Id": "671",
+            "Date": "2020-01-30",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-01-30",
             "Id": "672",
+            "Date": "2020-01-30",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-30",
             "Id": "673",
+            "Date": "2020-01-30",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-01-30",
             "Id": "674",
+            "Date": "2020-01-30",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "31"
         },
         {
-            "Date": "2020-01-30",
             "Id": "675",
+            "Date": "2020-01-30",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "33"
         },
         {
-            "Date": "2020-01-30",
             "Id": "676",
+            "Date": "2020-01-30",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "34"
         },
         {
-            "Date": "2020-01-30",
             "Id": "677",
+            "Date": "2020-01-30",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "37"
         },
         {
-            "Date": "2020-01-31",
             "Id": "684",
+            "Date": "2020-01-31",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-01-31",
             "Id": "685",
+            "Date": "2020-01-31",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-01-31",
             "Id": "686",
+            "Date": "2020-01-31",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-01-31",
             "Id": "687",
+            "Date": "2020-01-31",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-01-31",
             "Id": "688",
+            "Date": "2020-01-31",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-01-31",
             "Id": "689",
+            "Date": "2020-01-31",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "31"
         },
         {
-            "Date": "2020-01-31",
             "Id": "690",
+            "Date": "2020-01-31",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "33"
         },
         {
-            "Date": "2020-01-31",
             "Id": "691",
+            "Date": "2020-01-31",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "34"
         },
         {
-            "Date": "2020-01-31",
             "Id": "692",
+            "Date": "2020-01-31",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "35"
         },
         {
-            "Date": "2020-01-31",
             "Id": "693",
+            "Date": "2020-01-31",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "37"
         },
         {
-            "Date": "2020-02-01",
             "Id": "699",
+            "Date": "2020-02-01",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-01",
             "Id": "700",
+            "Date": "2020-02-01",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-01",
             "Id": "701",
+            "Date": "2020-02-01",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-01",
             "Id": "702",
+            "Date": "2020-02-01",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-02-01",
             "Id": "703",
+            "Date": "2020-02-01",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-01",
             "Id": "704",
+            "Date": "2020-02-01",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "31"
         },
         {
-            "Date": "2020-02-02",
             "Id": "706",
+            "Date": "2020-02-02",
             "Score": "10",
             "Status": "Done",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-02",
             "Id": "707",
+            "Date": "2020-02-02",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-02",
             "Id": "708",
+            "Date": "2020-02-02",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-02",
             "Id": "709",
+            "Date": "2020-02-02",
             "Score": "6",
             "Status": "Done",
             "TaskId": "22"
         },
         {
-            "Date": "2020-02-02",
             "Id": "710",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "30"
-        },
-        {
             "Date": "2020-02-02",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "30"
+        },
+        {
             "Id": "711",
+            "Date": "2020-02-02",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "31"
         },
         {
-            "Date": "2020-02-03",
             "Id": "713",
+            "Date": "2020-02-03",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-03",
             "Id": "714",
+            "Date": "2020-02-03",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-03",
             "Id": "715",
+            "Date": "2020-02-03",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-03",
             "Id": "716",
+            "Date": "2020-02-03",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-02-03",
             "Id": "717",
+            "Date": "2020-02-03",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-03",
             "Id": "718",
+            "Date": "2020-02-03",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "31"
         },
         {
-            "Date": "2020-02-04",
             "Id": "720",
+            "Date": "2020-02-04",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-04",
             "Id": "721",
+            "Date": "2020-02-04",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-04",
             "Id": "722",
+            "Date": "2020-02-04",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-04",
             "Id": "723",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "22"
-        },
-        {
             "Date": "2020-02-04",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "22"
+        },
+        {
             "Id": "724",
+            "Date": "2020-02-04",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-05",
             "Id": "727",
+            "Date": "2020-02-05",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-05",
             "Id": "728",
+            "Date": "2020-02-05",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-05",
             "Id": "729",
+            "Date": "2020-02-05",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-05",
             "Id": "730",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "22"
-        },
-        {
             "Date": "2020-02-05",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "22"
+        },
+        {
             "Id": "731",
+            "Date": "2020-02-05",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-06",
             "Id": "734",
+            "Date": "2020-02-06",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-06",
             "Id": "735",
+            "Date": "2020-02-06",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-06",
             "Id": "736",
+            "Date": "2020-02-06",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-06",
             "Id": "737",
+            "Date": "2020-02-06",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-02-06",
             "Id": "738",
+            "Date": "2020-02-06",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-07",
             "Id": "741",
+            "Date": "2020-02-07",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-07",
             "Id": "742",
+            "Date": "2020-02-07",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-07",
             "Id": "743",
+            "Date": "2020-02-07",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-07",
             "Id": "744",
+            "Date": "2020-02-07",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-02-07",
             "Id": "745",
+            "Date": "2020-02-07",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-08",
             "Id": "748",
+            "Date": "2020-02-08",
             "Score": "6",
             "Status": "Done",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-08",
             "Id": "749",
+            "Date": "2020-02-08",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-08",
             "Id": "750",
+            "Date": "2020-02-08",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-08",
             "Id": "751",
+            "Date": "2020-02-08",
             "Score": "7",
             "Status": "Done",
             "TaskId": "22"
         },
         {
-            "Date": "2020-02-08",
             "Id": "752",
+            "Date": "2020-02-08",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-09",
             "Id": "755",
+            "Date": "2020-02-09",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-09",
             "Id": "756",
+            "Date": "2020-02-09",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-09",
             "Id": "757",
+            "Date": "2020-02-09",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-09",
             "Id": "758",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "22"
-        },
-        {
             "Date": "2020-02-09",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "22"
+        },
+        {
             "Id": "759",
+            "Date": "2020-02-09",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-10",
             "Id": "762",
+            "Date": "2020-02-10",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-10",
             "Id": "763",
+            "Date": "2020-02-10",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-10",
             "Id": "764",
+            "Date": "2020-02-10",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-10",
             "Id": "765",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "22"
-        },
-        {
             "Date": "2020-02-10",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "22"
+        },
+        {
             "Id": "766",
+            "Date": "2020-02-10",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-11",
             "Id": "769",
+            "Date": "2020-02-11",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-11",
             "Id": "770",
+            "Date": "2020-02-11",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-11",
             "Id": "771",
+            "Date": "2020-02-11",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-11",
             "Id": "772",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "22"
-        },
-        {
             "Date": "2020-02-11",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "22"
+        },
+        {
             "Id": "773",
+            "Date": "2020-02-11",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-12",
             "Id": "776",
+            "Date": "2020-02-12",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-12",
             "Id": "777",
+            "Date": "2020-02-12",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-12",
             "Id": "778",
+            "Date": "2020-02-12",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-12",
             "Id": "779",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "22"
-        },
-        {
             "Date": "2020-02-12",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "22"
+        },
+        {
             "Id": "780",
+            "Date": "2020-02-12",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-13",
             "Id": "783",
+            "Date": "2020-02-13",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-13",
             "Id": "784",
+            "Date": "2020-02-13",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-13",
             "Id": "785",
+            "Date": "2020-02-13",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-13",
             "Id": "786",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "22"
-        },
-        {
             "Date": "2020-02-13",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "22"
+        },
+        {
             "Id": "787",
+            "Date": "2020-02-13",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-14",
             "Id": "790",
+            "Date": "2020-02-14",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-14",
             "Id": "791",
+            "Date": "2020-02-14",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-14",
             "Id": "792",
+            "Date": "2020-02-14",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-14",
             "Id": "793",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "22"
-        },
-        {
             "Date": "2020-02-14",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "22"
+        },
+        {
             "Id": "794",
+            "Date": "2020-02-14",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-15",
             "Id": "797",
+            "Date": "2020-02-15",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-15",
             "Id": "798",
+            "Date": "2020-02-15",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-15",
             "Id": "799",
+            "Date": "2020-02-15",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-15",
             "Id": "800",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "22"
-        },
-        {
             "Date": "2020-02-15",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "22"
+        },
+        {
             "Id": "801",
+            "Date": "2020-02-15",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-16",
             "Id": "804",
+            "Date": "2020-02-16",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-16",
             "Id": "805",
+            "Date": "2020-02-16",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-16",
             "Id": "806",
+            "Date": "2020-02-16",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-16",
             "Id": "807",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "22"
-        },
-        {
             "Date": "2020-02-16",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "22"
+        },
+        {
             "Id": "808",
+            "Date": "2020-02-16",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-17",
             "Id": "811",
+            "Date": "2020-02-17",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-17",
             "Id": "812",
+            "Date": "2020-02-17",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-17",
             "Id": "813",
+            "Date": "2020-02-17",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-17",
             "Id": "814",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "22"
-        },
-        {
             "Date": "2020-02-17",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "22"
+        },
+        {
             "Id": "815",
+            "Date": "2020-02-17",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-18",
             "Id": "818",
+            "Date": "2020-02-18",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-18",
             "Id": "819",
+            "Date": "2020-02-18",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-18",
             "Id": "820",
+            "Date": "2020-02-18",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-18",
             "Id": "821",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "22"
-        },
-        {
             "Date": "2020-02-18",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "22"
+        },
+        {
             "Id": "822",
+            "Date": "2020-02-18",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-19",
             "Id": "825",
+            "Date": "2020-02-19",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-19",
             "Id": "826",
+            "Date": "2020-02-19",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-19",
             "Id": "827",
+            "Date": "2020-02-19",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-19",
             "Id": "828",
-            "Score": "0",
-            "Status": "Missed",
-            "TaskId": "22"
-        },
-        {
             "Date": "2020-02-19",
+            "Score": "0",
+            "Status": "Missed",
+            "TaskId": "22"
+        },
+        {
             "Id": "829",
+            "Date": "2020-02-19",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-20",
             "Id": "832",
+            "Date": "2020-02-20",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-20",
             "Id": "833",
+            "Date": "2020-02-20",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-20",
             "Id": "834",
+            "Date": "2020-02-20",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-20",
             "Id": "835",
+            "Date": "2020-02-20",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-02-20",
             "Id": "836",
+            "Date": "2020-02-20",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
         },
         {
-            "Date": "2020-02-21",
             "Id": "839",
+            "Date": "2020-02-21",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "14"
         },
         {
-            "Date": "2020-02-21",
             "Id": "840",
+            "Date": "2020-02-21",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "17"
         },
         {
-            "Date": "2020-02-21",
             "Id": "841",
+            "Date": "2020-02-21",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "21"
         },
         {
-            "Date": "2020-02-21",
             "Id": "842",
+            "Date": "2020-02-21",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "22"
         },
         {
-            "Date": "2020-02-21",
             "Id": "843",
+            "Date": "2020-02-21",
             "Score": "0",
             "Status": "Missed",
             "TaskId": "30"
@@ -2814,7 +2814,7 @@ function ChangeCategories() {
 
         newObj[category.Id] = {
             "Name": category.Name,
-            "Status": category.Status,
+            "ParentCategoryId": category.ParentCategoryId,
             "UserId": category.UserId
         };
     }
@@ -2851,6 +2851,7 @@ function ChangeAssessments() {
         newObj[assessment.Id] = {
             "Date": assessment.Date,
             "Score": assessment.Score,
+            "TaskId": assessment.TaskId,
             "Status": assessment.Status
         };
     }
