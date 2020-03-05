@@ -2711,85 +2711,10 @@ let data = {
         }
     ],
     "users": [{
-            "Id": "35",
-            "Username": "idm"
-        },
-        {
-            "Id": "40",
-            "Username": "idm0p0"
-        },
-        {
-            "Id": "36",
-            "Username": "idm1"
-        },
-        {
-            "Id": "37",
-            "Username": "idm5"
-        },
-        {
-            "Id": "38",
-            "Username": "idm6"
-        },
-        {
-            "Id": "39",
-            "Username": "idm7"
-        },
-        {
-            "Id": "1",
+            "Id": "NxsochBkZUfitupOsx4vjSLk33J2",
             "Username": "Indra"
-        },
-        {
-            "Id": "41",
-            "Username": "indra00"
-        },
-        {
-            "Id": "33",
-            "Username": "indra2"
-        },
-        {
-            "Id": "34",
-            "Username": "indra3"
-        },
-        {
-            "Id": "8",
-            "Username": "Math"
-        },
-        {
-            "Id": "9",
-            "Username": "Matha"
-        },
-        {
-            "Id": "11",
-            "Username": "mathb"
-        },
-        {
-            "Id": "12",
-            "Username": "mathc"
-        },
-        {
-            "Id": "14",
-            "Username": "mathd"
-        },
-        {
-            "Id": "30",
-            "Username": "mathe"
-        },
-        {
-            "Id": "31",
-            "Username": "mathf"
-        },
-        {
-            "Id": "32",
-            "Username": "mathg"
-        },
-        {
-            "Id": "5",
-            "Username": "Mathias"
-        },
-        {
-            "Id": "2",
-            "Username": "testuser"
         }
+
     ]
 };
 
@@ -2812,10 +2737,14 @@ function ChangeCategories() {
     for (let i = 0; i < data.categories.length; i++) {
         const category = data.categories[i];
 
+        if (category.UserId !== '1') {
+            continue;
+        }
+
         newObj[category.Id] = {
             "Name": category.Name,
             "ParentCategoryId": category.ParentCategoryId,
-            "UserId": category.UserId
+            "UserId": 'NxsochBkZUfitupOsx4vjSLk33J2'
         };
     }
 

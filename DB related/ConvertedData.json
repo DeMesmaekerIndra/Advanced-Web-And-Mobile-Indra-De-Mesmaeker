@@ -1,339 +1,203 @@
 {
-    "users": {
-        "1": {
-            "Username": "Indra"
-        },
-        "2": {
-            "Username": "testuser"
-        },
-        "5": {
-            "Username": "Mathias"
-        },
-        "8": {
-            "Username": "Math"
-        },
-        "9": {
-            "Username": "Matha"
-        },
-        "11": {
-            "Username": "mathb"
-        },
-        "12": {
-            "Username": "mathc"
-        },
-        "14": {
-            "Username": "mathd"
-        },
-        "30": {
-            "Username": "mathe"
-        },
-        "31": {
-            "Username": "mathf"
-        },
-        "32": {
-            "Username": "mathg"
-        },
-        "33": {
-            "Username": "indra2"
-        },
-        "34": {
-            "Username": "indra3"
-        },
-        "35": {
-            "Username": "idm"
-        },
-        "36": {
-            "Username": "idm1"
-        },
-        "37": {
-            "Username": "idm5"
-        },
-        "38": {
-            "Username": "idm6"
-        },
-        "39": {
-            "Username": "idm7"
-        },
-        "40": {
-            "Username": "idm0p0"
-        },
-        "41": {
-            "Username": "indra00"
-        }
-    },
     "Categories": {
-        "8": {
-            "Name": "Hey I was updated",
-            "UserId": "2"
-        },
         "9": {
             "Name": "School",
-            "UserId": "1"
+            "UserId": "NxsochBkZUfitupOsx4vjSLk33J2"
         },
         "14": {
             "Name": "Web & Mobile",
             "ParentCategoryId": "9",
-            "UserId": "1"
+            "UserId": "NxsochBkZUfitupOsx4vjSLk33J2"
         },
         "16": {
             "Name": "Home",
-            "UserId": "1"
-        },
-        "17": {
-            "Name": "Work",
-            "UserId": "2"
-        },
-        "26": {
-            "Name": "testcat4",
-            "UserId": "32"
-        },
-        "27": {
-            "Name": "testcat5",
-            "UserId": "32"
+            "UserId": "NxsochBkZUfitupOsx4vjSLk33J2"
         },
         "33": {
             "Name": "Vacation",
-            "UserId": "1"
+            "UserId": "NxsochBkZUfitupOsx4vjSLk33J2"
         },
         "34": {
             "Name": "Newport",
             "ParentCategoryId": "33",
-            "UserId": "1"
+            "UserId": "NxsochBkZUfitupOsx4vjSLk33J2"
         },
         "35": {
             "Name": "Spain",
             "ParentCategoryId": "33",
-            "UserId": "1"
+            "UserId": "NxsochBkZUfitupOsx4vjSLk33J2"
         },
         "36": {
             "Name": "France",
             "ParentCategoryId": "33",
-            "UserId": "1"
+            "UserId": "NxsochBkZUfitupOsx4vjSLk33J2"
         },
         "37": {
             "Name": "Germany",
             "ParentCategoryId": "33",
-            "UserId": "1"
+            "UserId": "NxsochBkZUfitupOsx4vjSLk33J2"
         },
         "38": {
             "Name": "Switzeland",
             "ParentCategoryId": "33",
-            "UserId": "1"
+            "UserId": "NxsochBkZUfitupOsx4vjSLk33J2"
         },
         "40": {
             "Name": "Work",
-            "UserId": "1"
+            "UserId": "NxsochBkZUfitupOsx4vjSLk33J2"
         },
         "41": {
             "Name": "Accounting",
             "ParentCategoryId": "40",
-            "UserId": "1"
-        },
-        "42": {
-            "Name": "Home",
-            "UserId": "33"
-        },
-        "43": {
-            "Name": "School",
-            "UserId": "33"
-        },
-        "44": {
-            "Name": "mom",
-            "ParentCategoryId": "42",
-            "UserId": "33"
-        },
-        "45": {
-            "Name": "dad",
-            "ParentCategoryId": "42",
-            "UserId": "33"
-        },
-        "46": {
-            "Name": "new category",
-            "UserId": "34"
-        },
-        "47": {
-            "Name": "newcat",
-            "UserId": "34"
-        },
-        "48": {
-            "Name": "new subcat",
-            "ParentCategoryId": "46",
-            "UserId": "34"
-        },
-        "49": {
-            "Name": "testcat",
-            "UserId": "40"
-        },
-        "50": {
-            "Name": "testcat2",
-            "UserId": "40"
-        },
-        "51": {
-            "Name": "subcat1",
-            "ParentCategoryId": "49",
-            "UserId": "40"
-        },
-        "52": {
-            "Name": "subcat2",
-            "ParentCategoryId": "49",
-            "UserId": "40"
-        },
-        "53": {
-            "Name": "ja",
-            "ParentCategoryId": "51",
-            "UserId": "40"
-        },
-        "54": {
-            "Name": "cat3",
-            "UserId": "32"
+            "UserId": "NxsochBkZUfitupOsx4vjSLk33J2"
         },
         "55": {
             "Name": "category",
-            "UserId": "1"
+            "UserId": "NxsochBkZUfitupOsx4vjSLk33J2"
         }
     },
     "task": {
-        "13": {
-            "Name": "API afwerken",
-            "Description": "No Description",
-            "Status": "Done",
-            "Method": "Numeric",
-            "StartDate": "2019-11-27",
-            "EndDate": "2019-12-20",
-            "CategoryId": "14"
-        },
-        "14": {
-            "Name": "Hybride app",
-            "Description": "No Description",
-            "Status": "Busy",
-            "Method": "Descriptive",
-            "StartDate": "2019-11-27",
-            "CategoryId": "14"
-        },
-        "17": {
-            "Name": "Jogging",
-            "Description": "No Description",
-            "Status": "Busy",
-            "Method": "Numeric",
-            "StartDate": "2019-11-13",
-            "CategoryId": "8"
-        },
-        "18": {
-            "Name": "Feed the dog",
-            "Description": "No Description",
-            "Status": "Done",
-            "Method": "Numeric",
-            "StartDate": "2019-11-28",
-            "EndDate": "2019-11-30",
-            "CategoryId": "8"
-        },
-        "21": {
-            "Name": "Weekly report",
-            "Description": "No Description",
-            "Status": "Busy",
-            "Method": "Numeric",
-            "StartDate": "2019-11-05",
-            "CategoryId": "17"
-        },
-        "22": {
-            "Name": "Clean up",
-            "Description": "No Description",
-            "Status": "Busy",
-            "Method": "Numeric",
-            "StartDate": "2019-11-02",
-            "CategoryId": "16"
-        },
-        "28": {
-            "Name": "Jogging",
-            "Description": "Jog down the beach",
-            "Status": "Busy",
-            "Method": "Descriptive",
-            "StartDate": "2020-07-01",
-            "EndDate": "2020-07-10",
-            "CategoryId": "34"
-        },
-        "29": {
-            "Name": "Prepare luggage",
-            "Description": "Take EVERYTHING with you!",
-            "Status": "Done",
-            "Method": "Numeric",
-            "StartDate": "2020-01-27",
-            "EndDate": "2020-01-29",
-            "CategoryId": "33"
-        },
-        "30": {
-            "Name": "yeet",
-            "Description": "geg",
-            "Status": "Busy",
-            "Method": "Numeric",
-            "StartDate": "2020-01-27",
-            "EndDate": "2020-06-03",
-            "CategoryId": "26"
-        },
-        "31": {
-            "Name": "hdhdj",
-            "Description": "",
-            "Status": "Done",
-            "Method": "Numeric",
-            "StartDate": "2020-01-27",
-            "EndDate": "2020-02-03",
-            "CategoryId": "26"
-        },
-        "32": {
-            "Name": "Water plants",
-            "Description": "Water plants everyday before leaving....",
-            "Status": "Busy",
-            "Method": "Descriptive",
-            "StartDate": "2020-06-25",
-            "EndDate": "2020-06-30",
-            "CategoryId": "33"
-        },
-        "33": {
-            "Name": "Daily report",
-            "Description": "Make a daily sales report",
-            "Status": "Done",
-            "Method": "Numeric",
-            "StartDate": "2020-01-27",
-            "EndDate": "2020-01-31",
-            "CategoryId": "40"
-        },
-        "34": {
-            "Name": "Feed Dog",
-            "Description": "No Description",
-            "Status": "Done",
-            "Method": "Numeric",
-            "StartDate": "2020-01-28",
-            "EndDate": "2020-01-31",
-            "CategoryId": "42"
-        },
-        "35": {
-            "Name": "new task",
-            "Description": "Very descriptive",
-            "Status": "Done",
-            "Method": "Numeric",
-            "StartDate": "2020-01-30",
-            "EndDate": "2020-01-31",
-            "CategoryId": "46"
-        },
-        "36": {
-            "Name": "Random task",
-            "Description": "very descriptive",
-            "Status": "Done",
-            "Method": "Numeric",
-            "StartDate": "2020-01-27",
-            "EndDate": "2020-01-28",
-            "CategoryId": "49"
-        },
-        "37": {
-            "Name": "testing",
-            "Description": "s",
-            "Status": "Done",
-            "Method": "Descriptive",
-            "StartDate": "2020-01-27",
-            "EndDate": "2020-01-31",
-            "CategoryId": "51"
-        }
-    },
+   "13":{
+      "Name":"API afwerken",
+      "Description":"No Description",
+      "Status":"Done",
+      "Method":"Numeric",
+      "StartDate":"2019-11-27",
+      "EndDate":"2019-12-20",
+      "CategoryId":"14"
+   },
+   "14":{
+      "Name":"Hybride app",
+      "Description":"No Description",
+      "Status":"Busy",
+      "Method":"Descriptive",
+      "StartDate":"2019-11-27",
+      "CategoryId":"14"
+   },
+   "17":{
+      "Name":"Jogging",
+      "Description":"No Description",
+      "Status":"Busy",
+      "Method":"Numeric",
+      "StartDate":"2019-11-13",
+      "CategoryId":"8"
+   },
+   "18":{
+      "Name":"Feed the dog",
+      "Description":"No Description",
+      "Status":"Done",
+      "Method":"Numeric",
+      "StartDate":"2019-11-28",
+      "EndDate":"2019-11-30",
+      "CategoryId":"8"
+   },
+   "21":{
+      "Name":"Weekly report",
+      "Description":"No Description",
+      "Status":"Busy",
+      "Method":"Numeric",
+      "StartDate":"2019-11-05",
+      "CategoryId":"17"
+   },
+   "22":{
+      "Name":"Clean up",
+      "Description":"No Description",
+      "Status":"Busy",
+      "Method":"Numeric",
+      "StartDate":"2019-11-02",
+      "CategoryId":"16"
+   },
+   "28":{
+      "Name":"Jogging",
+      "Description":"Jog down the beach",
+      "Status":"Busy",
+      "Method":"Descriptive",
+      "StartDate":"2020-07-01",
+      "EndDate":"2020-07-10",
+      "CategoryId":"34"
+   },
+   "29":{
+      "Name":"Prepare luggage",
+      "Description":"Take EVERYTHING with you!",
+      "Status":"Done",
+      "Method":"Numeric",
+      "StartDate":"2020-01-27",
+      "EndDate":"2020-01-29",
+      "CategoryId":"33"
+   },
+   "30":{
+      "Name":"yeet",
+      "Description":"geg",
+      "Status":"Busy",
+      "Method":"Numeric",
+      "StartDate":"2020-01-27",
+      "EndDate":"2020-06-03",
+      "CategoryId":"26"
+   },
+   "31":{
+      "Name":"hdhdj",
+      "Description":"",
+      "Status":"Done",
+      "Method":"Numeric",
+      "StartDate":"2020-01-27",
+      "EndDate":"2020-02-03",
+      "CategoryId":"26"
+   },
+   "32":{
+      "Name":"Water plants",
+      "Description":"Water plants everyday before leaving....",
+      "Status":"Busy",
+      "Method":"Descriptive",
+      "StartDate":"2020-06-25",
+      "EndDate":"2020-06-30",
+      "CategoryId":"33"
+   },
+   "33":{
+      "Name":"Daily report",
+      "Description":"Make a daily sales report",
+      "Status":"Done",
+      "Method":"Numeric",
+      "StartDate":"2020-01-27",
+      "EndDate":"2020-01-31",
+      "CategoryId":"40"
+   },
+   "34":{
+      "Name":"Feed Dog",
+      "Description":"No Description",
+      "Status":"Done",
+      "Method":"Numeric",
+      "StartDate":"2020-01-28",
+      "EndDate":"2020-01-31",
+      "CategoryId":"42"
+   },
+   "35":{
+      "Name":"new task",
+      "Description":"Very descriptive",
+      "Status":"Done",
+      "Method":"Numeric",
+      "StartDate":"2020-01-30",
+      "EndDate":"2020-01-31",
+      "CategoryId":"46"
+   },
+   "36":{
+      "Name":"Random task",
+      "Description":"very descriptive",
+      "Status":"Done",
+      "Method":"Numeric",
+      "StartDate":"2020-01-27",
+      "EndDate":"2020-01-28",
+      "CategoryId":"49"
+   },
+   "37":{
+      "Name":"testing",
+      "Description":"s",
+      "Status":"Done",
+      "Method":"Descriptive",
+      "StartDate":"2020-01-27",
+      "EndDate":"2020-01-31",
+      "CategoryId":"51"
+   }
+},
     "assessments": {
         "98": {
             "Date": "2019-12-20",
