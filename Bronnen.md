@@ -1,8 +1,9 @@
-# Bronnen
+# Bronnen & references
 
-* Firebase docs:
-	* Db validation: https://firebase.google.com/docs/rules/data-validation#firestore
-	* Db security: https://firebase.google.com/docs/database/security/
+* Firebase:
+	* rules
+		* Db validation: https://firebase.google.com/docs/rules/data-validation#firestore
+		* Db securing data: https://firebase.google.com/docs/database/security/securing-data
 	
 * Firebase youtube: 
 	* https://www.youtube.com/channel/UCP4bf6IHJJQehibu6ai__cg
@@ -12,3 +13,4 @@
 	
 * Tools:
 	* JSON formatter: https://jsonformatter.curiousconcept.com/
+	* Firebase simulator
