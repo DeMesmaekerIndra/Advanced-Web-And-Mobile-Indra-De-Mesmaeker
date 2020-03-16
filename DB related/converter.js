@@ -2724,32 +2724,30 @@ function ChangeUsers() {
         const user = data.users[i];
 
         newObj[user.Id] = {
-            "Username": user.Username
+            "Username": user.Username,
         };
     }
 
     data.users = newObj;
-    document.getElementById('userdata').innerText = JSON.stringify(data.users);
 }
 
 function ChangeCategories() {
     let newObj = {};
+
     for (let i = 0; i < data.categories.length; i++) {
         const category = data.categories[i];
 
-        if (category.UserId !== '1') {
-            continue;
+        if (category.UserId === "1") {
+            newObj[category.Id] = {
+                "Id": category.Id,
+                "Name": category.Name,
+                "UserId": "NxsochBkZUfitupOsx4vjSLk33J2",
+                "ParentCategoryId": category.ParentCategoryId
+            };
         }
-
-        newObj[category.Id] = {
-            "Name": category.Name,
-            "ParentCategoryId": category.ParentCategoryId,
-            "UserId": 'NxsochBkZUfitupOsx4vjSLk33J2'
-        };
     }
 
     data.categories = newObj;
-    document.getElementById('categorydata').innerText = JSON.stringify(data.categories);
 }
 
 function ChangeTasks() {
@@ -2768,8 +2766,7 @@ function ChangeTasks() {
         };
     }
 
-    data.categories = newObj;
-    document.getElementById('taskdata').innerText = JSON.stringify(data.categories);
+    data.tasks = newObj;
 }
 
 function ChangeAssessments() {
@@ -2786,12 +2783,30 @@ function ChangeAssessments() {
     }
 
     data.assessments = newObj;
-    document.getElementById('assessmentdata').innerText = JSON.stringify(data.assessments);
 }
+
+function TreeAdjustment() {
+    let finalJSON = {};
+
+    finalJSON = {
+        "Users": {
+            "NxsochBkZUfitupOsx4vjSLk33J2": {
+                "Username": "Indra",
+                "Categories": data.categories,
+                "Tasks": data.tasks,
+                "Assessments": data.assessments
+            }
+        }
+    };
+
+    document.getElementById('data').innerText = JSON.stringify(finalJSON);
+}
+
 
 window.addEventListener('load', function () {
     ChangeUsers();
     ChangeCategories();
     ChangeTasks();
     ChangeAssessments();
+    TreeAdjustment();
 });

@@ -1,5 +1,5 @@
 # Logboek
-## Totaal aantal uren : 14u
+## Totaal aantal uren : 18u
 
 ## Week 1:
 * 4u les.
@@ -37,3 +37,10 @@
 	* Missende key/value pairs in database
 		* Nieuwere bronddata gebruikt
 		* converter aangepast
+
+## Week 4: 
+* 4u les.
+	* Opnieuw nieuwe datastructuur uitgewerkt
+		* Willen toch eigen user takken bijhouden met daaronder
+	* Converter aanpassen
+	* Problemen met geneste data
