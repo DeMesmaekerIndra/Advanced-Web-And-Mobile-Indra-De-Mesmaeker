@@ -1,0 +1,32 @@
+{
+    /* Visit https://firebase.google.com/docs/database/security to learn more about security rules. */
+    "rules": {
+
+        /*Rules about the Users tree*/
+        "Users": {
+            "$uid": {
+                ".write": "true",
+                ".read": "true",
+                ".validate": "newData.hasChild('Username')  || newData.hasChild('Categories') || newData.hasChild('Tasks') || newData.hasChild('Assessments')",
+
+                /*Rules about the Categories sub-tree*/
+                "Categories": {
+                    "$catid": {
+                        ".validate": "newData.hasChildren(['Name', 'test'])"
+                    }
+                },
+
+                /*Rules about the Tasks sub-tree*/
+                "Tasks": {
+
+                },
+
+                /*Rules about the Categories sub-tree*/
+
+                "Assessments": {
+
+                }
+            }
+        }
+    }
+}

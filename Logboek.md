@@ -1,5 +1,5 @@
 # Logboek
-## Totaal aantal uren : 18u
+## Totaal aantal uren : 22u
 
 ## Week 1:
 * 4u les.
@@ -40,7 +40,16 @@
 
 ## Week 4: 
 * 4u les.
+	* Firebase rules uitwerken
 	* Opnieuw nieuwe datastructuur uitgewerkt
 		* Willen toch eigen user takken bijhouden met daaronder
 	* Converter aanpassen
 	* Problemen met geneste data
+
+## Week 5:
+*4u les.
+	* Onnodige UserId property bij Categories tree
+	* Firebase rules
+		* Updaten voor nieuwe structuur
+		* Mee leren werken
+		
