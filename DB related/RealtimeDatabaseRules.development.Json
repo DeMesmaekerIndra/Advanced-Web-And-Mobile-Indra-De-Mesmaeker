@@ -6,25 +6,42 @@
         "Users": {
             "$uid": {
                 ".write": "auth.uid == $uid || !data.exists()",
-                ".read": "true",
-                ".validate": "data.hasChild('Username')  || newData.child('Username').isString() || newData.hasChild('Username') || newData.hasChild('Categories') || newData.hasChild('Tasks') || newData.hasChild('Assessments') || !data.exists()",
+                ".read": "auth.uid == $uid",
+                ".validate": "data.hasChild('Username')  ||
+                newData.child('Username').isString() ||
+                newData.hasChild('Username') ||
+                newData.hasChild('Categories') ||
+                newData.hasChild('Tasks') ||
+                newData.hasChild('Assessments') ||
+                !data.exists()
+                ",
 
                 /*Rules about the Categories sub-tree*/
                 "Categories": {
                     "$catid": {
-                        ".validate": "newData.hasChildren(['Name', 'test'])"
+                        ".validate": "!data.exists() ? newData.hasChild('Name') : newData.hasChild('Name') || newData.hasChild('ParentCategoryId')",
+                        "Name": {
+                            ".validate": "newData.isString()"
+                        },
+                        "ParentCategoryId": {
+                            ".validate": "newData.isNumber()"
+                        }
                     }
                 },
 
                 /*Rules about the Tasks sub-tree*/
                 "Tasks": {
+                    "$taskid": {
 
+                    }
                 },
 
                 /*Rules about the Categories sub-tree*/
 
                 "Assessments": {
+                    "$assessmentid": {
 
+                    }
                 }
             }
         }
