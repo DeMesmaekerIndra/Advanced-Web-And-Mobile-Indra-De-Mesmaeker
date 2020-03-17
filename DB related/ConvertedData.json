@@ -5,70 +5,58 @@
          "Categories": {
             "9": {
                "Id": "9",
-               "Name": "School",
-               "UserId": "NxsochBkZUfitupOsx4vjSLk33J2"
+               "Name": "School"
             },
             "14": {
                "Id": "14",
                "Name": "Web & Mobile",
-               "UserId": "NxsochBkZUfitupOsx4vjSLk33J2",
                "ParentCategoryId": "9"
             },
             "16": {
                "Id": "16",
-               "Name": "Home",
-               "UserId": "NxsochBkZUfitupOsx4vjSLk33J2"
+               "Name": "Home"
             },
             "33": {
                "Id": "33",
-               "Name": "Vacation",
-               "UserId": "NxsochBkZUfitupOsx4vjSLk33J2"
+               "Name": "Vacation"
             },
             "34": {
                "Id": "34",
                "Name": "Newport",
-               "UserId": "NxsochBkZUfitupOsx4vjSLk33J2",
                "ParentCategoryId": "33"
             },
             "35": {
                "Id": "35",
                "Name": "Spain",
-               "UserId": "NxsochBkZUfitupOsx4vjSLk33J2",
                "ParentCategoryId": "33"
             },
             "36": {
                "Id": "36",
                "Name": "France",
-               "UserId": "NxsochBkZUfitupOsx4vjSLk33J2",
                "ParentCategoryId": "33"
             },
             "37": {
                "Id": "37",
                "Name": "Germany",
-               "UserId": "NxsochBkZUfitupOsx4vjSLk33J2",
                "ParentCategoryId": "33"
             },
             "38": {
                "Id": "38",
                "Name": "Switzeland",
-               "UserId": "NxsochBkZUfitupOsx4vjSLk33J2",
                "ParentCategoryId": "33"
             },
             "40": {
                "Id": "40",
-               "Name": "Work",
-               "UserId": "NxsochBkZUfitupOsx4vjSLk33J2"
+               "Name": "Work"
             },
             "41": {
                "Id": "41",
                "Name": "Accounting",
-               "UserId": "NxsochBkZUfitupOsx4vjSLk33J2",
                "ParentCategoryId": "40"
             },
             "55": {
                "Id": "55",
-               "Name": "category",
-               "UserId": "NxsochBkZUfitupOsx4vjSLk33J2"
+               "Name": "category"
             }
          },
          "Tasks": {

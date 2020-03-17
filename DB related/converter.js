@@ -2741,7 +2741,6 @@ function ChangeCategories() {
             newObj[category.Id] = {
                 "Id": category.Id,
                 "Name": category.Name,
-                "UserId": "NxsochBkZUfitupOsx4vjSLk33J2",
                 "ParentCategoryId": category.ParentCategoryId
             };
         }
