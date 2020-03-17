@@ -49,6 +49,7 @@
 ## Week 5:
 *4u les.
 	* Onnodige UserId property bij Categories tree
+	* Alle properties met een numerieke value als string omgezet naar pure numerieke value
 	* Firebase rules
 		* Updaten voor nieuwe structuur
 		* Mee leren werken

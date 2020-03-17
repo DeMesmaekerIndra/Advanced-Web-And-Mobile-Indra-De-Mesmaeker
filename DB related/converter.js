@@ -2739,9 +2739,8 @@ function ChangeCategories() {
 
         if (category.UserId === "1") {
             newObj[category.Id] = {
-                "Id": category.Id,
                 "Name": category.Name,
-                "ParentCategoryId": category.ParentCategoryId
+                "ParentCategoryId": parseInt(category.ParentCategoryId)
             };
         }
     }
@@ -2761,7 +2760,7 @@ function ChangeTasks() {
             "Method": task.Method,
             "StartDate": task.StartDate,
             "EndDate": task.EndDate,
-            "CategoryId": task.CategoryId
+            "CategoryId": parseInt(task.CategoryId)
         };
     }
 
@@ -2775,8 +2774,8 @@ function ChangeAssessments() {
 
         newObj[assessment.Id] = {
             "Date": assessment.Date,
-            "Score": assessment.Score,
-            "TaskId": assessment.TaskId,
+            "Score": parseInt(assessment.Score),
+            "TaskId": parseInt(assessment.TaskId),
             "Status": assessment.Status
         };
     }
@@ -2799,6 +2798,7 @@ function TreeAdjustment() {
     };
 
     document.getElementById('data').innerText = JSON.stringify(finalJSON);
+    console.log(finalJSON);
 }
 
 
