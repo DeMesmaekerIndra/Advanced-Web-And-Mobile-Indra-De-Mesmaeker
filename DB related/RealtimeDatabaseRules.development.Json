@@ -12,19 +12,22 @@
                 newData.hasChild('Username') ||
                 newData.hasChild('Categories') ||
                 newData.hasChild('Tasks') ||
-                newData.hasChild('Assessments') ||
-                !data.exists()
+                newData.hasChild('Assessments')
                 ",
 
                 /*Rules about the Categories sub-tree*/
                 "Categories": {
                     "$catid": {
-                        ".validate": "!data.exists() ? newData.hasChild('Name') : newData.hasChild('Name') || newData.hasChild('ParentCategoryId')",
+                        ".validate": "newData.hasChild('Name')",
+
                         "Name": {
                             ".validate": "newData.isString()"
                         },
                         "ParentCategoryId": {
                             ".validate": "newData.isNumber()"
+                        },
+                        "$other": {
+                            ".validate": false
                         }
                     }
                 },
@@ -32,7 +35,33 @@
                 /*Rules about the Tasks sub-tree*/
                 "Tasks": {
                     "$taskid": {
+                        ".validate": "newData.hasChildren(['Name', 'StartDate', 'Method', 'CategoryId', 'Status'])",
 
+                        "Name": {
+                            ".validate": "newData.isString()"
+                        },
+                        "StartDate": {
+                            ".validate": "newData.isString()  &&
+                            newData.val().matches(/^(1|2)[0-9][0-9][0-9][/\\/. ](0[1-9]|1[012])[/\\/. ](0[1-9]|[12][0-9]|3[01])$/)
+                            "
+                        },
+                        "EndDate": {
+                            ".validate": "newData.isString()  &&
+                            newData.val().matches(/^(1|2)[0-9][0-9][0-9][/\\/. ](0[1-9]|1[012])[/\\/. ](0[1-9]|[12][0-9]|3[01])$/)
+                            "
+                        },
+                        "Method": {
+                            ".validate": "newData.isString()"
+                        },
+                        "Status": {
+                            ".validate": "newData.isString()"
+                        },
+                        "CategoryId": {
+                            ".validate": "newData.isNumber()"
+                        },
+                        "$other": {
+                            ".validate": false
+                        }
                     }
                 },
 
@@ -40,7 +69,24 @@
 
                 "Assessments": {
                     "$assessmentid": {
+                        ".validate": "newData.hasChildren(['Date', 'Score', 'TaskId'])",
 
+                        "Date": {
+                            ".validate": "newData.isString()  &&
+                            newData.val().matches(/^(1|2)[0-9][0-9][0-9][/\\/. ](0[1-9]|1[012])[/\\/. ](0[1-9]|[12][0-9]|3[01])$/)
+                            "
+                        },
+                        "Score": {
+                            ".validate": "newData.isNumber() &&
+                            newData.val().matches(/^[0-10]$/)
+                            "
+                        },
+                        "TaskId": {
+                            ".validate": "newData.isNumber()"
+                        },
+                        "Status": {
+                            ".validate": "newData.isString()"
+                        }
                     }
                 }
             }
