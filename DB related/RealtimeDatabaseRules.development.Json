@@ -5,9 +5,9 @@
         /*Rules about the Users tree*/
         "Users": {
             "$uid": {
-                ".write": "true",
+                ".write": "auth.uid == $uid || !data.exists()",
                 ".read": "true",
-                ".validate": "newData.hasChild('Username')  || newData.hasChild('Categories') || newData.hasChild('Tasks') || newData.hasChild('Assessments')",
+                ".validate": "data.hasChild('Username')  || newData.child('Username').isString() || newData.hasChild('Username') || newData.hasChild('Categories') || newData.hasChild('Tasks') || newData.hasChild('Assessments') || !data.exists()",
 
                 /*Rules about the Categories sub-tree*/
                 "Categories": {
