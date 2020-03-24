@@ -7,13 +7,7 @@
             "$uid": {
                 ".write": "auth.uid == $uid || !data.exists()",
                 ".read": "auth.uid == $uid",
-                ".validate": "data.hasChild('Username')  ||
-                newData.child('Username').isString() ||
-                newData.hasChild('Username') ||
-                newData.hasChild('Categories') ||
-                newData.hasChild('Tasks') ||
-                newData.hasChild('Assessments')
-                ",
+                ".validate": "data.hasChild('Username') || newData.child('Username').isString() || newData.hasChild('Username') || newData.hasChild('Categories') || newData.hasChild('Tasks') || newData.hasChild('Assessments')",
 
                 /*Rules about the Categories sub-tree*/
                 "Categories": {
@@ -24,7 +18,7 @@
                             ".validate": "newData.isString()"
                         },
                         "ParentCategoryId": {
-                            ".validate": "newData.isNumber()"
+                            ".validate": "newData.isNumber() && root.child('Users/' + auth.uid + '/Categories/' + newData.val()).exists()"
                         },
                         "$other": {
                             ".validate": false
@@ -41,14 +35,10 @@
                             ".validate": "newData.isString()"
                         },
                         "StartDate": {
-                            ".validate": "newData.isString()  &&
-                            newData.val().matches(/^(1|2)[0-9][0-9][0-9][/\\/. ](0[1-9]|1[012])[/\\/. ](0[1-9]|[12][0-9]|3[01])$/)
-                            "
+                            ".validate": "newData.isString() && newData.val().matches(/^(1|2)[0-9][0-9][0-9][/\\/. ](0[1-9]|1[012])[/\\/. ](0[1-9]|[12][0-9]|3[01])$/)"
                         },
                         "EndDate": {
-                            ".validate": "newData.isString()  &&
-                            newData.val().matches(/^(1|2)[0-9][0-9][0-9][/\\/. ](0[1-9]|1[012])[/\\/. ](0[1-9]|[12][0-9]|3[01])$/)
-                            "
+                            ".validate": "newData.isString() && newData.val().matches(/^(1|2)[0-9][0-9][0-9][/\\/. ](0[1-9]|1[012])[/\\/. ](0[1-9]|[12][0-9]|3[01])$/)"
                         },
                         "Method": {
                             ".validate": "newData.isString()"
@@ -57,7 +47,7 @@
                             ".validate": "newData.isString()"
                         },
                         "CategoryId": {
-                            ".validate": "newData.isNumber()"
+                            ".validate": "newData.isNumber() && root.child('Users/' + auth.uid + '/Categories/' + newData.val()).exists()"
                         },
                         "$other": {
                             ".validate": false
@@ -72,17 +62,13 @@
                         ".validate": "newData.hasChildren(['Date', 'Score', 'TaskId'])",
 
                         "Date": {
-                            ".validate": "newData.isString()  &&
-                            newData.val().matches(/^(1|2)[0-9][0-9][0-9][/\\/. ](0[1-9]|1[012])[/\\/. ](0[1-9]|[12][0-9]|3[01])$/)
-                            "
+                            ".validate": "newData.isString() && newData.val().matches(/^(1|2)[0-9][0-9][0-9][/\\/. ](0[1-9]|1[012])[/\\/. ](0[1-9]|[12][0-9]|3[01])$/)"
                         },
                         "Score": {
-                            ".validate": "newData.isNumber() &&
-                            newData.val().matches(/^[0-10]$/)
-                            "
+                            ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 10 && newData.val() % 1 == 0"
                         },
                         "TaskId": {
-                            ".validate": "newData.isNumber()"
+                            ".validate": "newData.isNumber() && root.child('Users/' + auth.uid + '/Tasks/' + newData.val()).exists()"
                         },
                         "Status": {
                             ".validate": "newData.isString()"
@@ -92,4 +78,3 @@
             }
         }
     }
-}
