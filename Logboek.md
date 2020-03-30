@@ -1,5 +1,5 @@
 # Logboek
-## Totaal aantal uren : 22u
+## Totaal aantal uren : 27u
 
 ## Week 1:
 * 4u les.
@@ -15,9 +15,9 @@
 	* Verder uitwerken JSON structuur voor omzetting van MySQL naar firebase.
 	* Opzoekingen gedaan naar mogelijke bestaande converters (Geen bruikbare resulaten).
 	* Uiteindelijk zelf gestart met een converter te maken in JS.
-	
+
 ## Krokusvakantie:
-* 3/2/2020 : 2u
+* 3/02/2020 : 2u
 	* Verder gewerkt aan JS converter.
 		* Van mapping function overgestapt naar gewoone forloop die per origineel object een aangepast object maakt.
 		* Geslaagde test bij users column.
@@ -38,7 +38,7 @@
 		* Nieuwere bronddata gebruikt
 		* converter aangepast
 
-## Week 4: 
+## Week 4:
 * 4u les.
 	* Firebase rules uitwerken
 	* Opnieuw nieuwe datastructuur uitgewerkt
@@ -47,10 +47,24 @@
 	* Problemen met geneste data
 
 ## Week 5:
-*4u les.
+* 4u les.
 	* Onnodige UserId property bij Categories tree
 	* Alle properties met een numerieke value als string omgezet naar pure numerieke value
 	* Firebase rules
 		* Updaten voor nieuwe structuur
 		* Mee leren werken
-		
+
+## Week 6:
+* 4u les.
+	* Leren werken met cloud functions
+		* Maken van een testopstelling
+		* Uitproberen van ingebouwde cronjob/google scheduler (Heeft billing information nodig, dit zal dus een no-go zijn)
+		* Uitproberen van oude manier van werken (Via cron-job.org de url van de functie aanroepen, dit werkt)
+	* Start van CreateDailyAssessment function
+		* Vervangen van de testopstelling met de CreateDailyAssessment function
+		* Cronjob op cron-job.org tijdelijk uitschakelen.
+
+* 30/03/2020 : 1u.
+	* Afwerken van de CreateDailyAssessments
+		* Cronjob op cron-job.org opnieuw inschakelen
+	* Aantal dagen laten testen op eigen development project, daarna op production zetten.
