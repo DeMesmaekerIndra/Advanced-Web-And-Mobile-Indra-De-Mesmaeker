@@ -2740,7 +2740,7 @@ function ChangeCategories() {
         if (category.UserId === "1") {
             newObj[category.Id] = {
                 "Name": category.Name,
-                "ParentCategoryId": parseInt(category.ParentCategoryId)
+                "ParentCategoryId": category.ParentCategoryId
             };
         }
     }
@@ -2760,7 +2760,7 @@ function ChangeTasks() {
             "Method": task.Method,
             "StartDate": task.StartDate,
             "EndDate": task.EndDate,
-            "CategoryId": parseInt(task.CategoryId)
+            "CategoryId": task.CategoryId
         };
     }
 
@@ -2775,7 +2775,7 @@ function ChangeAssessments() {
         newObj[assessment.Id] = {
             "Date": assessment.Date,
             "Score": parseInt(assessment.Score),
-            "TaskId": parseInt(assessment.TaskId),
+            "TaskId": assessment.TaskId,
             "Status": assessment.Status
         };
     }
