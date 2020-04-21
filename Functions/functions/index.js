@@ -82,6 +82,7 @@ exports.CreateDailyAssessment = functions.https.onRequest((request, response) =>
 
                 db.ref().update(updates);
             });
+
             return response.status(200).send(`OK! ${JSON.stringify(postResult)}`);
         });
     });

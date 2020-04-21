@@ -68,3 +68,12 @@
 	* Afwerken van de CreateDailyAssessments
 		* Cronjob op cron-job.org opnieuw inschakelen
 	* Aantal dagen laten testen op eigen development project, daarna op production zetten.
+	
+## Paasvakantie
+* 16/04/2020 : 4u
+	* Beveiligen van cron-job
+		* Uitzoeken hoe basic auth werkt
+		* HTTPS endpoint function in firebase aanpassen om met basic auth te werken
+	* cloud functions
+		* cloud functions met een trigger op het aanmaken/aanpassen van een task of assessment
+		* Functies die automatisch de status van deze gaat aanpassen
