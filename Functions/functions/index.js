@@ -3,6 +3,7 @@ const admin = require('firebase-admin');
 const cors = require('cors')({
     origin: true
 });
+let allowedHttpIps = ['195.201.26.157', '116.203.134.67', '116.203.129.16'];
 
 admin.initializeApp();
 let db = admin.database();
@@ -29,6 +30,11 @@ function IsValidLogin(decodedAuth) {
 /* FIREBASE TRIGGER FUNCTIONS */
 exports.CreateDailyAssessment = functions.https.onRequest((request, response) => {
     cors(request, response, async () => {
+
+        if (request.method !== 'POST') {
+            console.error("Attempt to execute 'CreateDailyAssessments': Wrong method");
+            return response.statusCode(402).send('Invalid Request');
+        }
 
         let AuthEncoded = ValidateHeader(request);
         if (!AuthEncoded) {
@@ -145,6 +151,18 @@ exports.TaskOnUpdate = functions.database.ref('/Users/{userId}/Tasks/{taskId}/')
 //Remove this when going to production
 exports.SecureEndPointTest = functions.https.onRequest(async (req, res) => {
     cors(req, res, () => {
+        let sourceIp = req.header('x-forwarded-for');
+
+        if (!allowedHttpIps.includes(sourceIp)) {
+            console.error("Attempt to execute 'CreateDailyAssessments' from a non-whitelisted source: " + sourceIp);
+            return res.status(403).send('Request from non-whitelisted source');
+        }
+
+        if (req.method !== 'POST') {
+            console.error("Attempt to execute 'CreateDailyAssessments': Wrong method");
+            return res.status(405).send('Invalid Request');
+        }
+
         let AuthEncoded = ValidateHeader(req);
         if (!AuthEncoded) {
             return res.status(403).send('Not Authorized! No authentication found');
@@ -154,6 +172,7 @@ exports.SecureEndPointTest = functions.https.onRequest(async (req, res) => {
         if (!IsValidLogin(AuthDecoded)) {
             return res.status(403).send('Not Authorized! Invalid authentication');
         }
+
         return res.status(200).send('OK! Authentication successful!');
     });
 });

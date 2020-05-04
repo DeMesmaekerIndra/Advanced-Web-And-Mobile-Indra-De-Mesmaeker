@@ -1,5 +1,5 @@
 # Logboek
-## Totaal aantal uren : 27u
+## Totaal aantal uren : 35u
 
 ## Week 1:
 * 4u les.
@@ -77,3 +77,15 @@
 	* cloud functions
 		* cloud functions met een trigger op het aanmaken/aanpassen van een task of assessment
 		* Functies die automatisch de status van deze gaat aanpassen
+		
+## Week 7:
+* 4u les.
+	* Verder aanvullen van de automatische status functions
+	* Logging toevoegen
+		
+## Week 8:
+* 4u les.
+	* Verder beveiligen van cron job
+		* x-forwarded-for header gebruiken om source IP na te gaan met een whitelist
+		* Logging toevoegen voor unauthorized access
+	* Afdwingen van POST requests
