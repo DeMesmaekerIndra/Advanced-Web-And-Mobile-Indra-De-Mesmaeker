@@ -24,28 +24,33 @@ function IsValidLogin(decodedAuth) {
     let username = decodedAuth.split(':')[0];
     let password = decodedAuth.split(':')[1];
 
-    return username === 'IndraDeMesmaeker' && password === '`YDD5p*54M3S(FoXHtf)Sct3s&p(';
+    return username === functions.config().cron.username && password === functions.config().cron.password;
 }
 
 /* FIREBASE TRIGGER FUNCTIONS */
 exports.CreateDailyAssessment = functions.https.onRequest((request, response) => {
     cors(request, response, async () => {
 
-        if (request.method !== 'POST') {
-            console.error("Attempt to execute 'CreateDailyAssessments': Wrong method");
-            return response.statusCode(402).send('Invalid Request');
+        let sourceIp = req.header('x-forwarded-for');
+
+        if (!allowedHttpIps.includes(sourceIp)) {
+            console.error("Attempt to execute 'CreateDailyAssessments' from a non-whitelisted source: " + sourceIp);
+            return res.status(403).send('Request from non-whitelisted source');
         }
 
-        let AuthEncoded = ValidateHeader(request);
+        if (req.method !== 'POST') {
+            console.error("Attempt to execute 'CreateDailyAssessments': Wrong method");
+            return res.status(405).send('Invalid Request');
+        }
+
+        let AuthEncoded = ValidateHeader(req);
         if (!AuthEncoded) {
-            console.error("UNAUTHORIZED ATTEMPT TO EXECUTE 'CreateDailyAssessments: No authentication in header'");
-            return response.status(403).send('Not Authorized! No authentication found');
+            return res.status(403).send('Not Authorized! No authentication found');
         }
 
         let AuthDecoded = DecodeAuthString(AuthEncoded);
         if (!IsValidLogin(AuthDecoded)) {
-            console.error("UNAUTHORIZED ATTEMPT TO EXECUTE 'CreateDailyAssessments: Invalid credentials'");
-            return response.status(403).send('Not Authorized! Invalid authentication');
+            return res.status(403).send('Not Authorized! Invalid authentication');
         }
 
         let updates = {};

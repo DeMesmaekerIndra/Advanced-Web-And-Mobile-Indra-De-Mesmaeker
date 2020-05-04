@@ -1,5 +1,5 @@
 # Logboek
-## Totaal aantal uren : 35u
+## Totaal aantal uren : 36u
 
 ## Week 1:
 * 4u les.
@@ -89,3 +89,8 @@
 		* x-forwarded-for header gebruiken om source IP na te gaan met een whitelist
 		* Logging toevoegen voor unauthorized access
 	* Afdwingen van POST requests
+
+## Week 9:
+* 5/05/2020 : 1u
+	* Alle security van test functie overgezet naar CreateDailyAssessments functions 
+	* Environment variables toegevoegd voor basic auth cron job

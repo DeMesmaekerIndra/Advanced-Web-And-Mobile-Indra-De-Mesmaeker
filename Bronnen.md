@@ -13,6 +13,9 @@
 * Stack Overflow:
 	* https://stackoverflow.com/questions/30910704/how-do-i-link-each-user-to-their-data-in-firebase
 	* https://stackoverflow.com/questions/54076286/how-to-push-multiple-items-in-firebase
+	
+* other:
+	* https://medium.com/@vik.ceo/setting-up-environment-variables-for-firebase-functions-d78e52b84f48
 
 * Tools:
 	* JSON formatter: https://jsonformatter.curiousconcept.com/
