@@ -28,7 +28,7 @@ function IsValidLogin(decodedAuth) {
     return username === functions.config().cron.username && password === functions.config().cron.password;
 }
 
-async function SendMail(mailBody) {
+async function SendMail(mailSubject, mailBody) {
     let gmail = functions.config().gmail.email;
     let pass = functions.config().gmail.password;
 
@@ -45,12 +45,11 @@ async function SendMail(mailBody) {
         to: 'indra_dm@hotmail.com',
     };
 
-    mailOptions.subject = 'UNAUTHORIZED EXECUTION ATTEMPT!';
+    mailOptions.subject = mailSubject;
     mailOptions.text = mailBody;
 
     try {
         await transport.sendMail(mailOptions);
-        console.log(`New ${subscribed ? '' : 'un'}subscription confirmation email sent to:`, val.email);
     } catch (error) {
         console.error('There was an error while sending the email:', error);
     }
@@ -188,7 +187,7 @@ exports.SecureEndPointTest = functions.https.onRequest(async (req, res) => {
 
         if (!allowedHttpIps.includes(sourceIp)) {
             console.error("Attempt to execute 'CreateDailyAssessments' from a non-whitelisted source: " + sourceIp);
-            SendMail("Attempt to execute 'CreateDailyAssessments' from a non-whitelisted source: " + sourceIp);
+            SendMail('UNAUTHORIZED EXECUTION ATTEMPT!', "Attempt to execute 'CreateDailyAssessments' from a non-whitelisted source: " + sourceIp);
             return res.status(403).send('Request from non-whitelisted source');
         }
 
