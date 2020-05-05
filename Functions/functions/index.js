@@ -1,5 +1,6 @@
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
+const nodemailer = require('nodemailer');
 const cors = require('cors')({
     origin: true
 });
@@ -27,6 +28,33 @@ function IsValidLogin(decodedAuth) {
     return username === functions.config().cron.username && password === functions.config().cron.password;
 }
 
+async function SendMail(mailBody) {
+    let gmail = functions.config().gmail.email;
+    let pass = functions.config().gmail.password;
+
+    const transport = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+            user: gmail,
+            pass: pass,
+        },
+    });
+
+    const mailOptions = {
+        from: '"Fme Development cloudfunctions" <advanced.web.and.mobile@gmail.com>',
+        to: 'indra_dm@hotmail.com',
+    };
+
+    mailOptions.subject = 'UNAUTHORIZED EXECUTION ATTEMPT!';
+    mailOptions.text = mailBody;
+
+    try {
+        await transport.sendMail(mailOptions);
+        console.log(`New ${subscribed ? '' : 'un'}subscription confirmation email sent to:`, val.email);
+    } catch (error) {
+        console.error('There was an error while sending the email:', error);
+    }
+}
 /* FIREBASE TRIGGER FUNCTIONS */
 exports.CreateDailyAssessment = functions.https.onRequest((request, response) => {
     cors(request, response, async () => {
@@ -160,6 +188,7 @@ exports.SecureEndPointTest = functions.https.onRequest(async (req, res) => {
 
         if (!allowedHttpIps.includes(sourceIp)) {
             console.error("Attempt to execute 'CreateDailyAssessments' from a non-whitelisted source: " + sourceIp);
+            SendMail("Attempt to execute 'CreateDailyAssessments' from a non-whitelisted source: " + sourceIp);
             return res.status(403).send('Request from non-whitelisted source');
         }
 
