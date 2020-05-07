@@ -55,13 +55,14 @@ async function SendMail(mailSubject, mailBody) {
     }
 }
 /* FIREBASE TRIGGER FUNCTIONS */
-exports.CreateDailyAssessment = functions.https.onRequest((request, response) => {
-    cors(request, response, async () => {
+exports.CreateDailyAssessment = functions.https.onRequest((req, res) => {
+    cors(req, res, async () => {
 
         let sourceIp = req.header('x-forwarded-for');
 
         if (!allowedHttpIps.includes(sourceIp)) {
             console.error("Attempt to execute 'CreateDailyAssessments' from a non-whitelisted source: " + sourceIp);
+            SendMail('UNAUTHORIZED EXECUTION ATTEMPT!', "Attempt to execute 'CreateDailyAssessments' from a non-whitelisted source: " + sourceIp);
             return res.status(403).send('Request from non-whitelisted source');
         }
 
@@ -121,7 +122,7 @@ exports.CreateDailyAssessment = functions.https.onRequest((request, response) =>
                 db.ref().update(updates);
             });
 
-            return response.status(200).send(`OK! ${JSON.stringify(postResult)}`);
+            return res.status(200).send(`OK! ${JSON.stringify(postResult)}`);
         });
     });
 });
@@ -186,7 +187,7 @@ exports.SecureEndPointTest = functions.https.onRequest(async (req, res) => {
         let sourceIp = req.header('x-forwarded-for');
 
         if (!allowedHttpIps.includes(sourceIp)) {
-            console.error("Attempt to execute 'CreateDailyAssessments' from a non-whitelisted source: " + sourceIp);
+            console.error("Attempt to execute 'SecureEndPointTest' from a non-whitelisted source: " + sourceIp);
             SendMail('UNAUTHORIZED EXECUTION ATTEMPT!', "Attempt to execute 'CreateDailyAssessments' from a non-whitelisted source: " + sourceIp);
             return res.status(403).send('Request from non-whitelisted source');
         }

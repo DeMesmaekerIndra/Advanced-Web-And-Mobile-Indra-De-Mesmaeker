@@ -1,5 +1,5 @@
 # Logboek
-## Totaal aantal uren : 36u
+## Totaal aantal uren : 41u
 
 ## Week 1:
 * 4u les.
@@ -94,3 +94,15 @@
 * 5/05/2020 : 1u
 	* Alle security van test functie overgezet naar CreateDailyAssessments functions 
 	* Environment variables toegevoegd voor basic auth cron job
+
+* 4u les + 30m.
+	* Oplossing zoeken voor mail notificaties unauthorized calls
+		* Oplossing gekozen voor nodemailer
+	* Uitschrijven van de oplossing
+		* debuggen van project problemen met nodemailer (module werd nooit gevonden tijdens deployment)
+		* Blijkbaar was originele projec structuur door elkaar gehaald
+			* project verwijderd & opniew geinitialiseerd
+
+* 7/05/2020 : 30m
+	* A.d.h.v. log errors merkte ik dat de cronjob incorrect uitvoerde
+	* Minor fix log info
