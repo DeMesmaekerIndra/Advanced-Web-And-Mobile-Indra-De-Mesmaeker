@@ -1,5 +1,5 @@
 # Logboek
-## Totaal aantal uren : 41u
+## Totaal aantal uren : 41u 15m
 
 ## Week 1:
 * 4u les.
@@ -103,6 +103,9 @@
 		* Blijkbaar was originele projec structuur door elkaar gehaald
 			* project verwijderd & opniew geinitialiseerd
 
-* 7/05/2020 : 30m
+* 7/05/2020 : 45m
 	* A.d.h.v. log errors merkte ik dat de cronjob incorrect uitvoerde
-	* Minor fix log info
+	* Minor refactoring & semantic changes
+	* I.p.v. het Source IP address van een request direct uit de header 'x-forwarded-for' te halen maak ik nu gebruik van een ingebouwd firebase functie;
+		* In het geval er met proxies gewerkt wordt ging de oude manier een string van meerdere IP's teruggeven
+		* Nieuwe manier geeft altijd originele client IP address terug.

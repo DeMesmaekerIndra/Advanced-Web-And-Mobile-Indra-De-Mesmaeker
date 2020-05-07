@@ -29,14 +29,11 @@ function IsValidLogin(decodedAuth) {
 }
 
 async function SendMail(mailSubject, mailBody) {
-    let gmail = functions.config().gmail.email;
-    let pass = functions.config().gmail.password;
-
     const transport = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: gmail,
-            pass: pass,
+            user: functions.config().gmail.email,
+            pass: functions.config().gmail.password,
         },
     });
 
@@ -58,7 +55,7 @@ async function SendMail(mailSubject, mailBody) {
 exports.CreateDailyAssessment = functions.https.onRequest((req, res) => {
     cors(req, res, async () => {
 
-        let sourceIp = req.header('x-forwarded-for');
+        let sourceIp = req.ip;
 
         if (!allowedHttpIps.includes(sourceIp)) {
             console.error("Attempt to execute 'CreateDailyAssessments' from a non-whitelisted source: " + sourceIp);
@@ -184,7 +181,7 @@ exports.TaskOnUpdate = functions.database.ref('/Users/{userId}/Tasks/{taskId}/')
 //Remove this when going to production
 exports.SecureEndPointTest = functions.https.onRequest(async (req, res) => {
     cors(req, res, () => {
-        let sourceIp = req.header('x-forwarded-for');
+        let sourceIp = req.ip;
 
         if (!allowedHttpIps.includes(sourceIp)) {
             console.error("Attempt to execute 'SecureEndPointTest' from a non-whitelisted source: " + sourceIp);
