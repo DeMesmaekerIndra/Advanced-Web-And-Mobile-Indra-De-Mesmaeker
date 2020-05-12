@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "testproject-6b0f1"
+    "default": "testproject-6b0f1",
+    "production": "fmeproduction-9d7fa"
   }
 }

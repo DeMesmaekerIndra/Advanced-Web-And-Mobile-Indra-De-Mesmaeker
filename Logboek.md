@@ -1,5 +1,5 @@
 # Logboek
-## Totaal aantal uren : 41u 15m
+## Totaal aantal uren : 49u 15m
 
 ## Week 1:
 * 4u les.
@@ -42,7 +42,7 @@
 * 4u les.
 	* Firebase rules uitwerken
 	* Opnieuw nieuwe datastructuur uitgewerkt
-		* Willen toch eigen user takken bijhouden met daaronder
+		* Willen toch eigen user takken bijhouden met daaronder informatie voor die user
 	* Converter aanpassen
 	* Problemen met geneste data
 
@@ -109,3 +109,27 @@
 	* I.p.v. het Source IP address van een request direct uit de header 'x-forwarded-for' te halen maak ik nu gebruik van een ingebouwd firebase functie;
 		* In het geval er met proxies gewerkt wordt ging de oude manier een string van meerdere IP's teruggeven
 		* Nieuwe manier geeft altijd originele client IP address terug.
+
+## Week 10:
+* 4u les:
+	* Toevoegen van extra statussen wanneer task enddate wordt aangepast
+		* Invalideren bestaande assessments indien deze aangemaakt zijn na nieuwe enddate
+		* Valideren indien deze invalide waren & voor de nieuwe einddatum zijn aangemaakt
+	* Functions verbinden met productie project
+		* pushen naar production project
+		* Nieuwe cron-job op cron-job.org voor production project aangemaakt
+
+* 12/05/2020 : 4u
+	* Refactoren van cloud functions
+		* .then() promises vervangen met ingebouwde callbacks bij het maken van een reference.
+			* Algemene structuur aangepast van functions hierdoor (waar/wanneer komt de return)
+		* Overbodige if then structuren vervangen met ternaire operators
+		* Voor semantiek let vervangen door const waar mogelijk
+		* Probleem met Date comparison opgelost
+			* Ik vergelijk de datums uit een databank door deze te parsen in een Date object
+			* Soms moest ik date comparison doen t.o.v. de datum van uitvoering van de function
+				* Deze verkreeg ik door een new Date() object aan te maken
+				* Deze geeft ook de tijd mee, waardoor een date comparison moeilijk wordt
+				* Nu heb ik een algemene methode die uit een Date object, een datum als string haalt & deze door een Date object parsed, zodat er enkel met datum vergeleken wordt & niet met tijd
+		* Testen na refactoring & aanpassingen
+		* Deploy to production
