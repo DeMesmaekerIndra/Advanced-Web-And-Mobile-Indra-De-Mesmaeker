@@ -132,6 +132,15 @@ exports.CreateDailyAssessment = functions.https.onRequest((req, res) => {
     });
 });
 
+exports.CreateUserNode = functions.auth.user().onCreate((user) => {
+    let uid = user.uid;
+    let updates = {};
+
+    updates[`/Users/${uid}/Username`] = user.displayName || 'Name not found';
+
+    return db.ref().update(updates);
+});
+
 exports.AssessmentOnCreate = functions.database.ref('/Users/{userId}/Assessments/{assessmentId}/').onCreate((snapshot) => {
     return snapshot.ref.child('Status').set('Missed');
 });
