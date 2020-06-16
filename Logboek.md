@@ -1,5 +1,5 @@
 # Logboek
-## Totaal aantal uren : 59u 45m
+## Totaal aantal uren : 61u
 
 ## Week 1:
 * 4u les.
@@ -140,9 +140,11 @@
 		* Gebruik van Hackolade community software om een model van de DB te bouwen
 		* Genereren van documentatie
 
-* 16/06/2020: 5u 30m
+* 16/06/2020: 6u 45m
 	* Aanpassen van de gegenereerde documentatie om enkel nuttige informatie over te houden (Gegenereerde documentatie was PDF formaat. Heeft redelijk tijd gekost om dit in word verder aan te passen...)
 	* Start aan de rest van documentatie aan firebase kant van het project.
 	* Github up-to-date brengen
 	* Debuggen van ruleset samen met Mathias bij samenbrenging van app & production backend
+		* Fout met regex
+		* Validation minder aggresief gemaakt om de werking van de frontend iets beter te ondersteunen
 	* Op request van mathias cloud functions aangepast: Wanneer een taak aangemaakt wordt zal startdatum automatisch ingesteld worden indien deze niet wordt doorgegeven.
