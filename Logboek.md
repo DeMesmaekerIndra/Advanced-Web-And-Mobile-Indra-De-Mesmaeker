@@ -1,5 +1,5 @@
 # Logboek
-## Totaal aantal uren : 58u 15m
+## Totaal aantal uren : 58u 45m
 
 ## Week 1:
 * 4u les.
@@ -140,6 +140,7 @@
 		* Gebruik van Hackolade community software om een model van de DB te bouwen
 		* Genereren van documentatie
 
-* 16/06/2020: 4u
+* 16/06/2020: 4u 30m
 	* Aanpassen van de gegenereerde documentatie om enkel nuttige informatie over te houden (Gegenereerde documentatie was PDF formaat. Heeft redelijk tijd gekost om dit in wordt verder aan te passen...)
 	* Start aan de rest van documentatie aan firebase kant van het project.
+	* Github up-to-date brengen
