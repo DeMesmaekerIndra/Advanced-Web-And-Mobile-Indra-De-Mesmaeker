@@ -157,6 +157,11 @@ exports.AssessmentOnUpdate = functions.database.ref('/Users/{userId}/Assessments
 });
 
 exports.TaskOnCreate = functions.database.ref('/Users/{userId}/Tasks/{taskId}/').onCreate((snapshot) => {
+    if (!snapshot.hasChild('StartDate')) {
+        const todayAsDate = new Date();
+        const todayAsString = todayAsDate.getFullYear() + '-' + (todayAsDate.getMonth() + 1) + '-' + todayAsDate.getDate();
+        snapshot.ref.child('StartDate').set(todayAsString);
+    }
     return snapshot.ref.child('Status').set('Busy');
 });
 
