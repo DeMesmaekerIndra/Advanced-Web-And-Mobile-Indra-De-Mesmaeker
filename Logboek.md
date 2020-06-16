@@ -141,5 +141,5 @@
 		* Genereren van documentatie
 
 * 16/06/2020: 4u
-	* Aanpassen van de gegenereerde documentatie om enkel nuttige informatie over te houden
+	* Aanpassen van de gegenereerde documentatie om enkel nuttige informatie over te houden (Gegenereerde documentatie was PDF formaat. Heeft redelijk tijd gekost om dit in wordt verder aan te passen...)
 	* Start aan de rest van documentatie aan firebase kant van het project.
