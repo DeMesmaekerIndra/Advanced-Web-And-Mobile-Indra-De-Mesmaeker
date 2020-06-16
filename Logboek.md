@@ -1,5 +1,5 @@
 # Logboek
-## Totaal aantal uren : 49u 15m
+## Totaal aantal uren : 57u 45m
 
 ## Week 1:
 * 4u les.
@@ -68,7 +68,7 @@
 	* Afwerken van de CreateDailyAssessments
 		* Cronjob op cron-job.org opnieuw inschakelen
 	* Aantal dagen laten testen op eigen development project, daarna op production zetten.
-	
+
 ## Paasvakantie
 * 16/04/2020 : 4u
 	* Beveiligen van cron-job
@@ -77,12 +77,12 @@
 	* cloud functions
 		* cloud functions met een trigger op het aanmaken/aanpassen van een task of assessment
 		* Functies die automatisch de status van deze gaat aanpassen
-		
+
 ## Week 7:
 * 4u les.
 	* Verder aanvullen van de automatische status functions
 	* Logging toevoegen
-		
+
 ## Week 8:
 * 4u les.
 	* Verder beveiligen van cron job
@@ -92,7 +92,7 @@
 
 ## Week 9:
 * 5/05/2020 : 1u
-	* Alle security van test functie overgezet naar CreateDailyAssessments functions 
+	* Alle security van test functie overgezet naar CreateDailyAssessments functions
 	* Environment variables toegevoegd voor basic auth cron job
 
 * 4u les + 30m.
@@ -133,3 +133,13 @@
 				* Nu heb ik een algemene methode die uit een Date object, een datum als string haalt & deze door een Date object parsed, zodat er enkel met datum vergeleken wordt & niet met tijd
 		* Testen na refactoring & aanpassingen
 		* Deploy to production
+
+## Week voor het examen
+* 15/06/2020: 5u
+	* Vinden van een goede representatie van een NoSQL DB.
+		* Gebruik van Hackolade community software om een model van de DB te bouwen
+		* Genereren van documentatie
+
+* 16/06/2020: 3u30m
+	* Aanpassen van de gegenereerde documentatie om enkel nuttige informatie over te houden
+	* Start aan de rest van documentatie aan firebase kant van het project.
