@@ -7,7 +7,7 @@
             "$uid": {
                 ".write": "auth.uid == $uid || !data.exists()",
                 ".read": "auth.uid == $uid",
-                ".validate": "data.hasChild('Username') || newData.child('Username').isString() || newData.hasChild('Username') || newData.hasChild('Categories') || newData.hasChild('Tasks') || newData.hasChild('Assessments')",
+                ".validate": "newData.hasChild('Username') && newData.child('Username').isString() || newData.hasChild('Username') ||newData.hasChild('Categories') || newData.hasChild('Tasks') || newData.hasChild('Assessments')",
 
                 /*Rules about the Categories sub-tree*/
                 "Categories": {
@@ -18,7 +18,7 @@
                             ".validate": "newData.isString()"
                         },
                         "ParentCategoryId": {
-                            ".validate": "newData.isNumber() && root.child('Users/' + auth.uid + '/Categories/' + newData.val()).exists()"
+                            ".validate": "newData.isString() && root.child('Users/' + auth.uid + '/Categories/' + newData.val()).exists()"
                         },
                         "$other": {
                             ".validate": false
@@ -47,7 +47,7 @@
                             ".validate": "newData.isString()"
                         },
                         "CategoryId": {
-                            ".validate": "newData.isNumber() && root.child('Users/' + auth.uid + '/Categories/' + newData.val()).exists()"
+                            ".validate": "newData.isString() &&  root.child('Users/' + auth.uid + '/Categories/' + newData.val()).exists()"
                         },
                         "$other": {
                             ".validate": false
@@ -55,9 +55,11 @@
                     }
                 },
 
-                /*Rules about the Categories sub-tree*/
+                /*Rules about the Assessments sub-tree*/
 
                 "Assessments": {
+                    ".indexOn": "TaskId",
+
                     "$assessmentid": {
                         ".validate": "newData.hasChildren(['Date', 'Score', 'TaskId'])",
 
@@ -68,7 +70,7 @@
                             ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 10 && newData.val() % 1 == 0"
                         },
                         "TaskId": {
-                            ".validate": "newData.isNumber() && root.child('Users/' + auth.uid + '/Tasks/' + newData.val()).exists()"
+                            ".validate": "newData.isString() && root.child('Users/' + auth.uid + '/Tasks/' + newData.val()).exists()"
                         },
                         "Status": {
                             ".validate": "newData.isString()"
