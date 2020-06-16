@@ -145,4 +145,4 @@
 	* Start aan de rest van documentatie aan firebase kant van het project.
 	* Github up-to-date brengen
 	* Debuggen van ruleset samen met Mathias bij samenbrenging van app & production backend
-		* Op requesr van mathias cloud functions aangepast: Wanneer een taak aangemaakt wordt zal startdatum automatisch ingesteld worden indien deze niet wordt doorgegeven.
+	* Op request van mathias cloud functions aangepast: Wanneer een taak aangemaakt wordt zal startdatum automatisch ingesteld worden indien deze niet wordt doorgegeven.
