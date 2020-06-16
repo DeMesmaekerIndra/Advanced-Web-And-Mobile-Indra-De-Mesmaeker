@@ -12,7 +12,7 @@ let db = admin.database();
 /* HELPER FUNCTIONS */
 function GetDateWithoutTime() {
     let todayAsDate = new Date();
-    const todayAsString = todayAsDate.getFullYear() + '-' + (todayAsDate.getMonth() + 1) + '-' + todayAsDate.getDate();
+    const todayAsString = todayAsDate.getFullYear() + '-' + (todayAsDate.getMonth() + 1) + '-' + todayAsDate.getDate() + 1;
     todayAsDate = new Date(todayAsString);
 
     return todayAsDate.getTime();
@@ -97,7 +97,7 @@ exports.CreateDailyAssessment = functions.https.onRequest((req, res) => {
             snapshot.forEach((user) => {
                 const tasks = user.child('Tasks');
                 const todayAsDate = new Date();
-                const todayAsString = todayAsDate.getFullYear() + '-' + (todayAsDate.getMonth() + 1) + '-' + todayAsDate.getDate();
+                const todayAsString = todayAsDate.getFullYear() + '-' + (todayAsDate.getMonth() + 1) + '-' + todayAsDate.getDate() + 1;
 
                 postResult.Total_Tasks += tasks.numChildren();
                 tasks.forEach(task => {
@@ -159,7 +159,7 @@ exports.AssessmentOnUpdate = functions.database.ref('/Users/{userId}/Assessments
 exports.TaskOnCreate = functions.database.ref('/Users/{userId}/Tasks/{taskId}/').onCreate((snapshot) => {
     if (!snapshot.hasChild('StartDate')) {
         const todayAsDate = new Date();
-        const todayAsString = todayAsDate.getFullYear() + '-' + (todayAsDate.getMonth() + 1) + '-' + todayAsDate.getDate();
+        const todayAsString = todayAsDate.getFullYear() + '-' + (todayAsDate.getMonth() + 1) + '-' + todayAsDate.getDate() + 1;
         snapshot.ref.child('StartDate').set(todayAsString);
     }
     return snapshot.ref.child('Status').set('Busy');
