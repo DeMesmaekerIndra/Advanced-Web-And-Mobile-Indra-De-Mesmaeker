@@ -20,3 +20,4 @@
 * Tools:
 	* JSON formatter: https://jsonformatter.curiousconcept.com/
 	* Firebase rules simulator
+	* Hackolade for data modeling: https://hackolade.com/ (Free community Edition)
