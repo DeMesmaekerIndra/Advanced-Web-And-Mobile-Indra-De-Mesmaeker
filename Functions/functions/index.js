@@ -99,7 +99,7 @@ exports.CreateDailyAssessment = functions.https.onRequest((req, res) => {
                 const todayAsDate = new Date();
                 const todayAsString = todayAsDate.getFullYear() + '-' + (todayAsDate.getMonth() + 1) + '-' + todayAsDate.getDate();
 
-                postResult.Total_Tasks = tasks.numChildren();
+                postResult.Total_Tasks += tasks.numChildren();
                 tasks.forEach(task => {
                     if (task.hasChild('EndDate') && task.child('Status').val() !== "Done") {
                         const endDate = new Date(task.child('EndDate').val());
